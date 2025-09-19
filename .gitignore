@@ -1,0 +1,12 @@
+# Node / Vite / React
+node_modules/
+dist/
+build/
+.cache/
+.vite/
+*.log
+.DS_Store
+
+# VS Code
+.vscode/
+EOF
