@@ -2,12 +2,11 @@
 
      npm run dev
 
-# CSS
+# CSS colors for another theme
 
      border: 2px solid #58d858;
 
      light-pink background-color: #eee6ea;
-
 
      light-grey #f2f0f1
 

@@ -6,18 +6,18 @@ const Footer: React.FC = () => {
   return (
     <Box component="footer" className="footer">
       <Box className="footer-row">
-        <Typography variant="body2" className="footer-text">
+        <Typography variant="body1" className="footer-text">
           Contact:
           <Link
             href="mailto:julia.taro@email.com"
             className="footer-link"
             underline="hover"
           >
-            julia.taro@gmail.com
+            julia.taro@adverbum.ee
           </Link>
         </Typography>
 
-        <Typography variant="body2" className="footer-text">
+        <Typography variant="body1" className="footer-text">
           Phone:
           <Link
             href="tel:+372-538-10-300"

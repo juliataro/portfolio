@@ -50,7 +50,7 @@ a:hover {
 }
 
 .cta-green {
-  border-radius: 5px;
+  border-radius: 6px;
   height: 55px;
   padding-left: 32px;
   padding-right: 26px;
@@ -69,7 +69,7 @@ a:hover {
   color: #ffffff !important;
 }
 .cta-white {
-  border-radius: 3px;
+  border-radius: 6px;
   height: 55px;
   padding-left: 32px;
   padding-right: 26px;
@@ -328,7 +328,7 @@ section p {
   }
 
   .cta-green {
-    border-radius: 5px;
+    border-radius: 6px;
     height: 64px;
     padding-left: 20px;
     padding-right: 20px;
@@ -347,7 +347,7 @@ section p {
     color: #a09dd4 !important;
   }
   .cta-white {
-    border-radius: 5px;
+    border-radius: 6px;
     height: 64px;
     padding-left: 20px;
     padding-right: 20px;
