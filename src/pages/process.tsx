@@ -49,7 +49,7 @@ const steps = [
     text: "Coding, CMS setup and responsive implementation.",
   },
   {
-    title: "7 STEP - Optimize speed & SEO",
+    title: "7 STEP - Speed & SEO",
     text: "Performance tuning, proper tags and lightweight images for discoverability.",
   },
   {
@@ -91,11 +91,12 @@ function GroupGridClassic({
       sx={{
         width: "100%",
         display: "grid",
+        marginTop: -2,
         gridTemplateColumns: {
           xs: "minmax(0,1fr)",
           md: "repeat(3, minmax(0,1fr))",
         },
-        gap: { xs: 2, md: 1 },
+        gap: { xs: 2.5, md: 2.5 },
         gridTemplateRows: { xs: "auto", md: `repeat(4, ${rowHeightMd}px)` },
         alignItems: "stretch",
       }}
@@ -109,8 +110,8 @@ function GroupGridClassic({
           }}
         >
           <Card>
-            <Typography variant="h6">{it.title}</Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="h5">{it.title}</Typography>
+            <Typography variant="body3" color="text.secondary">
               {it.text}
             </Typography>
           </Card>
@@ -149,7 +150,7 @@ function GroupGridCustom({
           xs: "minmax(0,1fr)",
           md: "repeat(3, minmax(0,1fr))",
         },
-        gap: { xs: 2, md: 1 },
+        gap: { xs: 2.5, md: 2.5 },
         gridTemplateRows: { xs: "auto", md: `repeat(4, ${rowHeightMd}px)` },
         alignItems: "stretch",
       }}
@@ -163,8 +164,8 @@ function GroupGridCustom({
           }}
         >
           <Card>
-            <Typography variant="h6">{it.title}</Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="h5">{it.title}</Typography>
+            <Typography variant="body3" color="text.secondary">
               {it.text}
             </Typography>
           </Card>
@@ -188,7 +189,7 @@ export default function TenStepsPage() {
       {/* Use the same wrappers as homepage for consistent width */}
       <section className="process-section row-full">
         <div className="section-inner">
-          <Box sx={{ py: { xs: 3, md: 6 } }}>
+          <Box sx={{ py: { xs: 3, md: 6 }, mt: -4 }}>
             <Typography
               variant="h3"
               sx={{
@@ -203,7 +204,7 @@ export default function TenStepsPage() {
               Process
             </Typography>
 
-            <Box sx={{ display: "grid", gap: { xs: 2.5, md: 4 } }}>
+            <Box sx={{ display: "grid", gap: { xs: 2.5, md: 2.5 } }}>
               <GroupGridClassic items={group1} rowHeightMd={140} />
               <GroupGridCustom items={group2} rowHeightMd={140} />
             </Box>

@@ -30,7 +30,7 @@ export const theme = createTheme({
     body3: {
       color: "#170c45",
       fontFamily: '"Inter", sans-serif',
-      fontSize: "14px",
+      fontSize: "15px",
     },
 
     h1: {

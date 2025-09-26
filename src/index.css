@@ -257,6 +257,11 @@ li,
   font-weight: 600;
 }
 
+.process-section{
+  margin-top: "-2rem";
+
+}
+
 .project-card p {
   color: #433f45;
   font-size: 1rem;
