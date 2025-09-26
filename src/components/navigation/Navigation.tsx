@@ -84,7 +84,7 @@ export default function Navigation() {
           </Box>
 
           {/* Title */}
-          <Box sx={{ flexGrow: 1, mt: 1 }}>
+          <Box sx={{ flexGrow: 1, mt: 1.2 }}>
             <Typography variant="h6">Business Thinking</Typography>
           </Box>
 
