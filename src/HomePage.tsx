@@ -83,7 +83,7 @@ export default function HomePage() {
                   borderRadius: "8px",
                   color: " #170c45",
                   textTransform: "none",
-                  mr: 2.5,
+
                   p: 2,
 
                   fontWeight: 500,

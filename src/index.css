@@ -223,6 +223,7 @@ li,
 }
 
 
+
 .lets-talk{
   margin-top: 3rem !important;
   color:"#170c45",
@@ -440,6 +441,12 @@ section p {
     letter-spacing: 0.5px;
     text-align: center;
   }
+
+  
+    .css-17sm3ko-MuiGrid-root {
+        margin-left: 5px;
+        display: block;
+    }
 
   .cta-green {
     border-radius: 8px;
