@@ -71,9 +71,7 @@ export default function HomePage() {
                 }}
                 variant="contained"
               >
-                <a href="mailto:info@adverbum.ee">
-                  Free Advice on Your Website
-                </a>
+                <a href="mailto:info@adverbum.ee">Free Site Audit</a>
               </Button>
               {/* -------------- White  Button -------------- */}
               <Button
@@ -92,7 +90,7 @@ export default function HomePage() {
                 variant="contained"
               >
                 <a href="https://docs.google.com/forms/d/1N6MsHxZ1D75HOOesnkedG5JycW34cCKy7y7z6wcQ6LA/edit">
-                  Start Your Project
+                  Let's Start
                 </a>
               </Button>
             </div>
