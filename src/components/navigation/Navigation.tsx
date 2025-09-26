@@ -76,7 +76,7 @@ export default function Navigation() {
                   height: 30,
                   pt: 0.5,
                   mr: 1,
-                  mt: 0.5,
+                  mt: 1,
                   objectFit: "contain",
                 }}
               />
