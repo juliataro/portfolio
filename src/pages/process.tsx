@@ -26,23 +26,23 @@ const Card = styled(Paper)(({ theme }) => ({
 const steps = [
   {
     title: "1 STEP - Understand your business",
-    text: "I will learn your idea, audience and what makes you unique.",
+    text: "On this step I will learn your idea, audience and what makes you unique. You will have to fill out the form. ",
   },
   {
     title: "2 STEP - Set goals",
-    text: "We define primary outcomes: sales, leads, brand or information.",
+    text: "We define primary outcomes what is best for you - sales, leads, brand or information.",
   },
   {
     title: "3 STEP - Map the structure",
-    text: "I sketch sitemap and flows so visitors always know where to go next.",
+    text: "I will sketch the sitemap and flows so visitors always know where to go next. Site map helps search engines crawl and index your website more efficiently, ensure important pages aren't missed, provide valuable metadata about your content.",
   },
   {
-    title: "4 STEP - Write meaningful content",
-    text: "Template texts and keyword-aware copy to start the site strong.",
+    title: "4 STEP - Template text",
+    text: "It you don't have time to write text - I will help with it. Texts and keyword-aware copy to start the site strong.",
   },
   {
     title: "5 STEP - Design with clarity",
-    text: "Readable, calm layouts and visuals that support your message.",
+    text: "I'll make Design and layouts and visuals that support your message.",
   },
   {
     title: "6 STEP - Build the website",
@@ -50,19 +50,19 @@ const steps = [
   },
   {
     title: "7 STEP - Speed & SEO",
-    text: "Performance tuning, proper tags and lightweight images for discoverability.",
+    text: "Basic SEO performance tuning, proper tags and lightweight images will increase your online visibility, drive organic traffic to your website.",
   },
   {
-    title: "8 STEP - Test on real devices",
-    text: "Phone, tablet and desktop testing — nothing gets left unchecked.",
+    title: "8 STEP - Testing",
+    text: "I'll check speed, mobile responsibility on phone, tablet and desktop views",
   },
   {
-    title: "9 STEP - Launch with confidence",
-    text: "Domain, hosting and final checks before going live.",
+    title: "9 STEP - Launch",
+    text: "Setup of domain, hosting and final checks before going live.",
   },
   {
     title: "10 STEP - Keep improving",
-    text: "Analytics and gradual improvements after launch.",
+    text: "If necessary, we will install Google Analytics and Google Search Console, or simple plugins for SMC to see result. With Google Analytics you can track details like page views, session duration.",
   },
 ];
 
