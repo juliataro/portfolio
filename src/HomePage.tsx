@@ -97,7 +97,7 @@ export default function HomePage() {
           </div>
         </section>
         {/**  Clients  */}
-        <section className="hero-section row-full">
+        <section className="hero-section-clients row-full">
           <div className="clients">
             <Box>
               <Clients />
