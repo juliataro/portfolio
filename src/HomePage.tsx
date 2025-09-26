@@ -59,10 +59,12 @@ export default function HomePage() {
                   color: " #170c45",
                   textTransform: "none",
                   mr: 2.5,
-                  p: 2,
+                  pt: "-1",
                   boxShadow: "0 14px 32px #a9eeae",
                   fontWeight: 700,
                   fontSize: 16,
+                  height: "45px",
+                  p: 3,
                   buttonShadow: "20 10px 24px #170c45", // <-- colored shadow
                   "&:hover": {
                     backgroundColor: "#ffffff",
@@ -81,8 +83,8 @@ export default function HomePage() {
                   borderRadius: "8px",
                   color: " #170c45",
                   textTransform: "none",
-
-                  p: 2,
+                  height: "45px",
+                  p: 3,
 
                   fontWeight: 500,
                   fontSize: 16,
