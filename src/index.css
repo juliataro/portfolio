@@ -384,8 +384,8 @@ section p {
 
   .clients {
     background-color: #e7e7f1;
-    margin-left: 20px !important;
-    margin-right: 20px !important;
+    margin-left: 40px !important;
+    margin-right: 40px !important;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
   }
@@ -449,10 +449,14 @@ section p {
   }
 
   
-    .css-17sm3ko-MuiGrid-root {
-        margin-left: 5px;
-        display: block;
-    }
+    .css-i63vzw-MuiTypography-root {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-top: 3px;
+}
 
   .cta-green {
     border-radius: 8px;
