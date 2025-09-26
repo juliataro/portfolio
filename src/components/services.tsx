@@ -10,6 +10,7 @@ const cards = [
     id: 1,
     title: "Web Design",
     description: "Clean, modern User / Mobile-friendly interface",
+    bg: "#ff7a59",
   },
   {
     id: 2,
@@ -20,7 +21,7 @@ const cards = [
   {
     id: 4,
     title: "Copywriting",
-    description: "Don't have texts or time to write them? ",
+    description: "No time to write your texts? We’ll handle it for you.",
   },
   {
     id: 3,
@@ -30,7 +31,7 @@ const cards = [
 
   {
     id: 5,
-    title: "Data Analisys",
+    title: "BI Analisys",
     description: "Humans depend on plants and animals for survival.",
   },
   {
@@ -52,13 +53,19 @@ function Services() {
       }}
     >
       {cards.map((card, index) => (
-        <Card sx={{ boxShadow: 0, borderRadius: "5px" }}>
+        <Card
+          sx={{
+            boxShadow: 0,
+            borderRadius: "8px",
+            backgroundColor: "#b7c8ec",
+          }}
+        >
           <CardActionArea
             disableRipple
             onClick={() => setSelectedCard(index)}
             data-active={selectedCard === index ? "" : undefined}
             sx={{
-              borderRadius: "3px",
+              borderRadius: "8px",
             }}
           >
             <CardContent sx={{ height: "100%" }}>

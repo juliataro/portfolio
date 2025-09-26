@@ -4,10 +4,13 @@ import { createTheme } from "@mui/material/styles";
 export const theme = createTheme({
   palette: {
     background: {
-      default: "#e0d5e2", // global background
+      default: "#ffffff",
     },
+
     text: {
-      primary: "#170c45", // default text color
+      primary: "#170c45",
+      // Set a proper secondary color used by list secondary text
+      secondary: "rgba(23, 12, 69, 0.6)",
     },
   },
   typography: {
@@ -17,27 +20,25 @@ export const theme = createTheme({
       fontFamily: '"Inter", sans-serif',
       lineHeight: 1.6,
     },
+    // Make body2 sane for in-list captions; avoid centering globally
     body2: {
-      textAlign: "center",
-      justifyContent: "center",
-      lineHeight: "9px",
-      fontFamily: '"Cal Sans", sans-serif',
-      fontWeight: 500,
-      fontSize: "13px",
+      color: "rgba(23, 12, 69, 0.6)", // usually same as palette.text.secondary
+      fontFamily: '"Inter", sans-serif',
+      fontSize: "0.875rem", // 14px
+      lineHeight: 1.4,
     },
     body3: {
-      backgroundColor: "#ffffff",
       color: "#170c45",
       fontFamily: '"Inter", sans-serif',
       fontSize: "14px",
     },
 
     h1: {
-      fontSize: "5rem",
+      fontSize: "1rem",
       fontWeight: 500,
       marginBottom: "2rem",
       letterSpacing: "-0.5px",
-      lineHeight: "5rem",
+      lineHeight: "3rem",
       fontFamily: '"Cal Sans", sans-serif',
     },
     h2: {
@@ -48,22 +49,23 @@ export const theme = createTheme({
       textAlign: "center",
       fontFamily: '"Cal Sans", sans-serif',
       fontSize: "2.3rem",
+      fontWeight: "100",
     },
     h4: {
       textAlign: "left",
       fontFamily: '"Inter", sans-serif',
-      fontWeight: "600",
+      fontWeight: "300",
       fontSize: "1.8rem",
     },
     h5: {
       textAlign: "left",
       fontFamily: '"Inter", sans-serif',
-      fontWeight: "700",
+      fontWeight: "600",
       fontSize: "1.3rem",
     },
     h6: {
-      fontFamily: '"Cal Sans", sans-serif',
-      fontWeight: "600",
+      fontFamily: '"Inter", sans-serif',
+      fontWeight: "500",
       fontSize: "1rem",
     },
   },

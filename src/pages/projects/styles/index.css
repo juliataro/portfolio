@@ -1,0 +1,12 @@
+.bcg-color {
+  background-color: "#fff";
+  min-height: "100vh";
+  py: 8;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 765px) {
+  .bcg-color {
+    margin-bottom: 2.8rem !important;
+  }
+}

@@ -5,7 +5,7 @@ import Nav from "../components/navigation/Navigation";
 import imgMain from "../assets/images/julia-taro-cv.jpg";
 //import imgDetail1 from "../assets/images/almarpuit/detail1.jpg"; // Replace with real file
 //import imgDetail2 from "../assets/images/almarpuit/detail2.jpg"; // Replace with real file
-import "../projects/styles/index.css";
+import "./projects/styles/index.css";
 import Footer from "../components/footer/Footer";
 
 const CVProject: React.FC = () => {
