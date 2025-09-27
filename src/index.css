@@ -393,6 +393,19 @@ section p {
     grid-template-columns: repeat(1fr);
   }
 
+  
+  .hero-section-clients {
+    background-color: #e7e7f1;
+    padding-top: 1rem;
+}
+
+    .hero-section {
+        background-color: #e7e7f1;
+        padding-top: 1rem;
+        /* padding-bottom: 2rem; */
+        align-items: center;
+    }
+
   .clients {
     background-color: #e7e7f1;
     margin-top: 1rem;
