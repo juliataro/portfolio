@@ -52,6 +52,7 @@ export default function FullWidthGrid() {
         <Grid size={{ xs: 3, md: 1 }}>
           <Item sx={{ border: 0 }}>
             <CardMedia
+              className="almarpuit"
               sx={{ marginTop: "-19px" }}
               component="img"
               image={imgAlmarPuit}
@@ -62,6 +63,7 @@ export default function FullWidthGrid() {
         <Grid size={{ xs: 3, md: 1 }}>
           <Item sx={{ border: 0 }}>
             <CardMedia
+              className="lionsclub"
               sx={{ marginTop: "-14px" }}
               component="img"
               image={imgLionsClub}

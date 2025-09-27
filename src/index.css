@@ -395,11 +395,25 @@ section p {
 
   .clients {
     background-color: #e7e7f1;
-    margin-left: 40px !important;
-    margin-right: 40px !important;
     margin-top: 1rem;
-    margin-bottom: 0.5rem;
-  }
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 2rem;
+}
+
+  
+    .hero-section {
+        background-color: #e7e7f1;
+        padding-top: 1rem;
+        /* padding-bottom: 2rem; */
+        align-items: center;
+    }
+
+
+ 
+  
+
+  
   section {
     padding-bottom: 1rem;
     font-family: "Cal Sans", sans-serif;
