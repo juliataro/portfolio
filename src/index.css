@@ -333,7 +333,7 @@ section p {
 .design-print-section {
   background-color: #f2f4fa;
   padding-top: 2rem;
-   padding-bottom: 10rem;
+   padding-bottom: 5rem;
   
   
 }
@@ -483,6 +483,17 @@ section p {
     margin-right: 0.5rem;
     max-width: 60%;
   }
+
+  .css-vxq3sc {
+    display: block;
+    margin-bottom: 28px !important;
+}
+
+.css-ynw6pm-MuiPaper-root-MuiCard-root {
+    background-color: #fff;
+    color: #170c45;
+    margin-bottom: 12px !important;
+}
   .cta-green:hover {
     background: #c1bfe7;
     border: 2px solid #c1bfe7;

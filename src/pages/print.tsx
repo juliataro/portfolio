@@ -86,6 +86,7 @@ export default function PrintPage() {
                 objectFit: "cover",
                 borderRadius: "8px",
                 boxSizing: "border-box",
+                mb: { sm: 0, lg: 2 },
               }}
             />
           </Box>
