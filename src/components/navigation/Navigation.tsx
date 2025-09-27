@@ -220,12 +220,13 @@ export default function Navigation() {
               <MenuIcon />
             </IconButton>
 
+            {/* ------------------ Mobile View --------------------- */}
             <Menu
               id="mobile-nav-menu"
-              // ✅ Use anchorPosition instead of anchorEl, so we can make it full-bleed
+              // Use anchorPosition instead of anchorEl, so we can make it full-bleed
               anchorReference="anchorPosition"
               anchorPosition={{ top: MENU_TOP, left: 0 }}
-              marginThreshold={0} // ✅ remove the default 16px viewport margin
+              marginThreshold={0} // remove the default 16px viewport margin
               open={navOpen}
               onClose={handleNavClose}
               keepMounted
@@ -241,7 +242,7 @@ export default function Navigation() {
                     borderRadius: 0,
                     marginTop: "2rem",
                     boxShadow: "none",
-                    backgroundColor: "#fff",
+                    backgroundColor: "#e7e7f1",
                     // Safe area insets for iOS notch
                     paddingLeft: "env(safe-area-inset-left)",
                     paddingRight: "env(safe-area-inset-right)",
