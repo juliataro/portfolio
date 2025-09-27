@@ -84,7 +84,7 @@ export default function Navigation() {
           </Box>
 
           {/* Title */}
-          <Box sx={{ flexGrow: 1, mt: 1.3 }}>
+          <Box sx={{ flexGrow: 1, mt: 1.2 }}>
             <Typography variant="h6">Web Development</Typography>
           </Box>
 
@@ -239,7 +239,7 @@ export default function Navigation() {
                     maxWidth: "100vw",
                     height: `calc(100vh - ${MENU_TOP}px)`,
                     borderRadius: 0,
-                    marginTop: "2.5rem",
+                    marginTop: "2rem",
                     boxShadow: "none",
                     backgroundColor: "#fff",
                     // Safe area insets for iOS notch
