@@ -18,10 +18,7 @@ import ManageAccountsIcon from "@mui/icons-material/ManageAccounts";
 
 import "./styles/index.css";
 
-{
-  /* ------------ EDUCATION DATA ---------------*/
-}
-
+/* ------------ EDUCATION DATA ---------------*/
 const educationList: ListItemData[] = [
   {
     id: 1,
@@ -32,7 +29,7 @@ const educationList: ListItemData[] = [
   {
     id: 2,
     primary: "VOCO, Tartu, Estonia (2020-2022)",
-    secondary: "Junior Full Stack Developer ",
+    secondary: "Junior Full Stack Developer",
     icon: <SchoolIcon />,
   },
   {
@@ -42,23 +39,21 @@ const educationList: ListItemData[] = [
     icon: <SchoolIcon />,
   },
 ];
-{
-  /* ------------ SKILLS DATA ---------------*/
-}
+
+/* ------------ SKILLS DATA ---------------*/
 const skillsList: ListItemData[] = [
   {
     id: 1,
     primary: "Web Development:",
     secondary:
-      "React/Redux, Angular(studying), TS, ExpressJS, Java, PHP, RestAPI, GitHub, SQL, NoSQL. CMS - WordPress, Framer, Wix.",
+      "React/Redux, Angular (studying), TS, ExpressJS, Java, PHP, REST API, GitHub, SQL, NoSQL. CMS — WordPress, Framer, Wix.",
     icon: <CodeIcon />,
   },
-
   {
     id: 2,
     primary: "Web Design:",
     secondary:
-      "Figma, Photoshop, Illustrator. UX/UI. Image editing, Color and Composition.",
+      "Figma, Photoshop, Illustrator. UX/UI. Image editing, color and composition.",
     icon: <DesignServicesIcon />,
   },
   {
@@ -70,6 +65,23 @@ const skillsList: ListItemData[] = [
   },
 ];
 
+const aboutText = (
+  <>
+    Hi, my name is Julia Taro. I have more than 10 years of design experience
+    both as a team member and freelancer. I’ve participated in and led
+    end-to-end projects, creating products from concepts and print production
+    (magazines, brochures, exhibition stands) to webpage implementations and
+    small business tools.
+    <br />
+    <br />I graduated from VOCO and now I’m studying Business Administration at
+    the University of Tartu. This path from design to development to business
+    lets me approach products holistically: I like to turn ideas into digital
+    implementations, dive deep into intuitive user experiences, and consider
+    strategic goals. My aim is to build practical digital solutions with a
+    customer-first approach — attractive and effective — and to save your time.
+  </>
+);
+
 const AboutProject: React.FC = () => {
   return (
     <>
@@ -78,20 +90,16 @@ const AboutProject: React.FC = () => {
       </header>
       <Box className="bcg-color">
         <Container maxWidth="md">
-          {/* --------------- About Page / Desktop View --------------  */}
+          {/* --------------- About / Desktop View --------------  */}
           <Card
             sx={{
-              display: "flex",
-              pl: 4,
-              pr: 4,
-              pt: 4,
-
+              display: { xs: "none", md: "flex" },
+              p: 4,
               boxShadow: 0,
               transition: "2s",
               borderRadius: "8px",
             }}
           >
-            {/* Julia Taro about description */}
             <CardMedia
               component="img"
               sx={{
@@ -100,51 +108,35 @@ const AboutProject: React.FC = () => {
                 mr: 2,
                 borderRadius: "5px",
                 display: { xs: "none", md: "flex" },
+                objectFit: "cover",
               }}
               image={imgMain}
-              alt="Live from space album cover"
+              alt="Portrait of Julia Taro"
             />
 
-            <Box
-              sx={{
-                flexDirection: "row",
-                mt: "-1.4rem",
-
-                display: { xs: "none", md: "flex" },
-              }}
-            >
-              <CardContent>
-                <Typography component="div" variant="h5">
-                  Business Thinking Developer
+            <Box sx={{ display: "flex", flexDirection: "column" }}>
+              <CardContent sx={{ pt: 0 }}>
+                <Typography component="h1" variant="h5">
+                  Business-Thinking Developer
                 </Typography>
 
                 <Typography
-                  variant="body3"
+                  variant="body2"
                   component="div"
                   color="text.secondary"
-                  sx={{ mb: "-1rem !important", mt: "0.5rem" }}
+                  sx={{ mt: 1 }}
                 >
-                  Hi, my name is Julia Taro. I have more than 10 years of design
-                  experience both as a team-member and freelancer. Participated
-                  and led end-to-end projects, created products from concept and
-                  print production (magazines, brochures, exhibition stands) to
-                  webpages implementations and small business tools. <br />{" "}
-                  Graduated from VOCO and now am studying Business
-                  Administration at the University of Tartu. This path from
-                  design to development to business lets me approach products
-                  holistically: I like to turn idea to digital implementation,
-                  deep in learning of intuitive user experiences, and consider
-                  strategic goals. My aim is to build practical digital
-                  solutions and save your time on that are with customer-first
-                  approach, attractive and effective.
+                  {aboutText}
                 </Typography>
               </CardContent>
             </Box>
           </Card>
-          {/*  ----------------- Julia Taro About / Mobile View ------------------*/}
+
+          {/*  ----------------- About / Mobile View ------------------*/}
           <Card
             sx={{
-              display: "column",
+              display: { xs: "flex", md: "none" },
+              flexDirection: "column",
               p: 4,
               mt: "-1rem",
               mb: "-3rem !important",
@@ -156,36 +148,30 @@ const AboutProject: React.FC = () => {
             <CardMedia
               component="img"
               sx={{
-                width: 150,
-                height: 203,
-                ml: 0,
-                mt: "-1rem",
-                mb: "2rem",
+                width: { xs: "40%", md: 150 }, // full width on mobile, fixed on desktop
+                height: { xs: "auto", md: 224 }, // auto height on mobile
                 borderRadius: "5px",
-                display: { xs: "flex", md: "none " },
+                objectFit: "cover",
+                mt: { xs: "0rem", md: 0 }, // margin-top 1rem on mobile only
+                mb: { xs: "2rem", md: 0 },
+                mr: { xs: 0, md: 2 }, // right margin only on desktop
+                display: { xs: "flex", md: "flex" }, // make sure it's visible everywhere
               }}
               image={imgMain}
-              alt="Live from space album cover"
+              alt="Portrait of Julia Taro"
             />
 
-            <Box
-              sx={{
-                flexDirection: "row",
-                mt: "-1.4rem",
-                ml: "-1rem",
-                mb: "-2rem",
-                display: { xs: "flex", md: "none " },
-              }}
-            >
-              <CardContent>
-                <Typography component="div" variant="h5">
-                  Business-Thinking Developer
-                </Typography>
-              </CardContent>
-              <Box
-                sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}
-              ></Box>
-            </Box>
+            {/* Title (mobile) */}
+            <CardContent sx={{ pt: 0 }}>
+              <Typography component="h1" variant="h5" sx={{ mb: 1 }}>
+                Business-Thinking Developer
+              </Typography>
+
+              {/* ✅ New: Mobile text under image */}
+              <Typography variant="body2" color="text.secondary">
+                {aboutText}
+              </Typography>
+            </CardContent>
           </Card>
 
           <Card
@@ -194,33 +180,25 @@ const AboutProject: React.FC = () => {
               boxShadow: 0,
               transition: "0.3s",
               borderRadius: "5px",
-              marginTop: "1rem",
+              mt: "1rem",
             }}
           >
             <CardContent>
               <Typography variant="h5" sx={{ mt: 2, mb: -1 }} gutterBottom>
                 EDUCATION
               </Typography>
-              {/*------------- Reusable Education list -----------------v*/}
-              <Typography
-                alignItems="flex-start"
-                variant="h4"
-                sx={{ ml: "-5" }}
-                gutterBottom
-              >
+
+              <Box sx={{ mt: 1 }}>
                 <ReusableList items={educationList} />
-              </Typography>
+              </Box>
+
               <Typography variant="h5" sx={{ mt: 4, mb: 0 }} gutterBottom>
                 SKILLS
               </Typography>
-              {/*------------- Reusable Skills list -----------------v*/}
-              <Typography
-                variant="h4"
-                sx={{ ml: "-5", mb: "-1.5rem" }}
-                gutterBottom
-              >
+
+              <Box sx={{ mt: 1, mb: "-1.5rem" }}>
                 <ReusableList items={skillsList} />
-              </Typography>
+              </Box>
             </CardContent>
           </Card>
         </Container>
