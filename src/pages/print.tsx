@@ -34,9 +34,8 @@ const printProjects = [
     image: imgTvPlay,
   },
   {
-    name: "Other Print Design Projects",
-    description:
-      "Some print design projects over the different years with different clients",
+    name: "Design Projects",
+    description: "Some print projects over the different years and clients",
     link: "https://www.behance.net/juliataro", // external
     image: imgMPKinnisvara,
   },
@@ -149,7 +148,7 @@ export default function PrintPage() {
                     >
                       {p.name}
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body3" color="text.secondary">
                       {p.description}
                     </Typography>
                   </CardContent>

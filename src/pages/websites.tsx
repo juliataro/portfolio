@@ -125,7 +125,7 @@ export default function WebsitesPage() {
                   <CardContent sx={{ p: { xs: 2, sm: 2.5 } }}>
                     <Typography
                       component="h3"
-                      variant="h6"
+                      variant="h5"
                       sx={{
                         fontWeight: 600,
                         color: "#170c45",
@@ -135,7 +135,7 @@ export default function WebsitesPage() {
                     >
                       {p.name}
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body3" color="text.secondary">
                       {p.description}
                     </Typography>
                   </CardContent>

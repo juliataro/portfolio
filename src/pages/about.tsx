@@ -92,9 +92,11 @@ const AboutProject: React.FC = () => {
         <Container maxWidth="md">
           {/* --------------- About / Desktop View --------------  */}
           <Card
+            className="about-description"
             sx={{
               display: { xs: "none", md: "flex" },
               p: 4,
+              mt: 2,
               boxShadow: 0,
               transition: "2s",
               borderRadius: "8px",

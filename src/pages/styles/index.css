@@ -1,13 +1,22 @@
 .bcg-color {
-  background-color: "#fff";
+  background-color: #e7e7f1;
   min-height: "100vh";
+  padding-top: 3.6rem !important;
+  padding-bottom: 5rem !important;
   py: 8;
+  margin-bottom: 0rem !important;
 }
 
 @media (max-width: 765px) {
   .bcg-color {
-    margin-bottom: 5rem !important;
     margin-top: 2rem;
+    margin-bottom: 0rem !important;
+    padding-bottom: 1rem !important;
+    padding-top: 2rem !important;
+  }
+
+  .about-description {
+    margin-bottom: 3rem !important;
   }
 
   .css-1yvd4r-MuiCardContent-root {

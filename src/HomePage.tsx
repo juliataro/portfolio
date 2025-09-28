@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
 import img1 from "./assets/images/almarpuit/almar-design.jpg";
-import img6 from "./assets/images/tobrox/tobrox-wood.png";
-import img7 from "./assets/images/tvplay/tvplay_car.jpg";
-import img8 from "./assets/images/mpkinnisvara/mpkinnisvara.jpg";
+
+import img7 from "./assets/images/tvplay/tvplay-bus.jpg";
+
 import Footer from "./components/footer/Footer";
 
 import Navigation from "./components/navigation/Navigation";
@@ -136,7 +136,7 @@ export default function HomePage() {
                     alt={project.name}
                     className="project-image"
                   />{" "}
-                  <h3>{project.name}</h3>{" "}
+                  <h5>{project.name}</h5>{" "}
                 </Link>
               ))}{" "}
             </div>{" "}
