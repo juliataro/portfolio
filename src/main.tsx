@@ -35,7 +35,6 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
               {/* 👈 wrap your whole app */}
               <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/about" element={<About />} />
                 <Route path="/process" element={<Process />} />
                 <Route path="/projects/websites" element={<Websites />} />
                 <Route path="/projects/print" element={<Print />} />
@@ -63,9 +62,8 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
                   path="/projects/websites/nagemisteraapia"
                   element={<Nagemisteraapia />}
                 />
-
-                <Route path="/pages/cv" element={<CVProject />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/about/cv" element={<CVProject />} />
               </Routes>
             </SmoothScroll>
           </BrowserRouter>
