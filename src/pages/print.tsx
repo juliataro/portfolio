@@ -15,7 +15,7 @@ import Footer from "../components/footer/Footer";
 
 import imgTvPlaySouvenirs from "../assets/images/tvplay/tv_play_souvenirs.jpg";
 const imgTvPlay = new URL(
-  "../assets/images/tvplay/tvplay_car.jpg",
+  "../assets/images/tvplay/tvplay-bus.jpg",
   import.meta.url
 ).href;
 const imgMPKinnisvara = new URL(

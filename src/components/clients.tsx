@@ -7,7 +7,7 @@ import imgBiospa from "../assets/logos/biospa.png";
 import imgSpaVarska from "../assets/logos/varska_spa.png";
 import imgAlmarPuit from "../assets/logos/almar_puit.png";
 import imgLionsClub from "../assets/logos/lions_club.png";
-import imgSilmaTark from "../assets/logos/silmatark_logo.png";
+import imgSilmaTark from "../assets/logos/silmatark-logo.png";
 import imgKinnisvara from "../assets/logos/mp_kinnisvara.png";
 import imgTobrox from "../assets/logos/tobrox_wood.png";
 import imgTvPlay from "../assets/logos/tvplay.png";
@@ -53,7 +53,7 @@ export default function FullWidthGrid() {
           <Item sx={{ border: 0 }}>
             <CardMedia
               className="almarpuit"
-              sx={{ marginTop: "-19px" }}
+              sx={{ marginTop: "-8px" }}
               component="img"
               image={imgAlmarPuit}
               alt="Almar Puit"
@@ -74,7 +74,7 @@ export default function FullWidthGrid() {
         <Grid size={{ xs: 3, md: 1 }}>
           <Item sx={{ border: 0 }}>
             <CardMedia
-              sx={{ marginTop: "-33px" }}
+              sx={{ marginTop: "-18px" }}
               component="img"
               image={imgSilmaTark}
               alt="Silma Tark"

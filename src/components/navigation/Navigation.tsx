@@ -16,7 +16,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Box from "@mui/material/Box";
 import { Link as RouterLink } from "react-router-dom";
 import "./Nav.css";
-import logoSrc from "../../assets/logos_c/adverbum_logo.svg";
+import logoSrc from "../../assets/logos/adverbum_logo.svg";
 
 export default function Navigation() {
   // --- Projects hover menu (desktop) ---

@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
-import img1 from "./assets/images/almarpuit/almar-design.jpg";
+import img1 from "./assets/images/estopuit.png";
 
-import img7 from "./assets/images/tvplay/tvplay-bus.jpg";
+import img7 from "./assets/images/tvplay/tv_play_car_1.jpg";
 
 import Footer from "./components/footer/Footer";
 
@@ -17,14 +17,14 @@ const webProjects = [
     id: 1,
     name: "Web Development",
     description: "Custom infosystem for timber business workflows",
-    link: "/projects/almarpuit",
+    link: "/projects/websites",
     image: img1,
   },
   {
     id: 2,
     name: "Design & Print",
     description: "Corporate website for timber product sales",
-    link: "/projects/tobroxwood",
+    link: "/projects/print",
     image: img7,
   },
 ];
