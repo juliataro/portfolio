@@ -390,6 +390,12 @@ section p {
 }
 
 @media (max-width: 765px) {
+
+  /* About */
+
+  .css-ntpxqx {
+    padding: 0 !important;
+}
   .main-header {
     background-image: linear-gradient(#1f38a6, #170c45);
     color: transparent;
