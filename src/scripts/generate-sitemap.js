@@ -6,7 +6,6 @@ const { create } = require('xmlbuilder2')
 const baseUrl = 'https://www.juliataro.eu'
 const routes = [
   '/',
-  '/about',
   '/process',
   '/projects/websites',
   '/projects/print',
