@@ -133,6 +133,9 @@ export default function PrintPage() {
                       height: "auto",
                       aspectRatio: "16 / 10",
                       objectFit: "cover",
+                      pt: "20px",
+                      pl: "20px",
+                      pr: "20px",
                     }}
                   />
                   <CardContent sx={{ p: { xs: 2, sm: 2.5 } }}>

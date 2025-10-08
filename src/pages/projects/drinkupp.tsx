@@ -8,11 +8,11 @@ import {
   CardContent,
 } from "@mui/material";
 
-import imgMain from "../../assets/images/almarpuit/almar-design.jpg";
+import imgMain from "../../assets/images/drinkupp/drinkupp.png";
 import Footer from "../../components/footer/Footer";
 import Navigation from "../../components/navigation/Navigation";
 
-const AlmarpuitProject: React.FC = () => {
+const DrinkuppProject: React.FC = () => {
   return (
     <>
       <header className="main-nav">
@@ -42,18 +42,17 @@ const AlmarpuitProject: React.FC = () => {
             />
             <CardContent>
               <Typography variant="h4" gutterBottom>
-                Almar Puit – Administrational Info System for management and
-                workers.
+                DrinkUpp – Smart hydration assistant for daily water intake and
+                healthy routines.
               </Typography>
 
               <Typography variant="body3" color="text.secondary" sx={{ mb: 2 }}>
-                Custom information system for timber business workflows.
-                Designed for internal use with clean layout and mobile
-                optimization. In addition to standard administrative functions,
-                the application includes a motivational feature — it allows an
-                employee to enter data about completed work and see their
-                progress through a growing monthly salary total. Application is
-                under development.
+                Designed for personal use with clean, intuitive interface and
+                mobile optimization. In addition to standard tracking functions,
+                the application includes motivational features — it allows a
+                user to log each drink, track progress throughout the day, and
+                receive encouraging feedback. The application is currently in
+                the prototype development stage.
               </Typography>
 
               {/* ➕ Additional Info Section */}
@@ -62,47 +61,37 @@ const AlmarpuitProject: React.FC = () => {
                   variant="body1"
                   sx={{ fontWeight: "bold", marginTop: "1em" }}
                 >
-                  Software Documentation:
+                  Landing Page:
                 </Typography>
+
                 <a
-                  href="https://bit.ly/4fzukMr"
+                  href="https://drinkupp.framer.website/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="external-link"
                 >
-                  https://bit.ly/4fzukMr
-                </a>
-
-                <Typography
-                  variant="body1"
-                  sx={{ fontWeight: "bold", marginTop: "1em" }}
-                >
-                  Application Design:
-                </Typography>
-
-                <a
-                  href="https://www.figma.com/proto/7r9WAcGyFEjHgjBXF6yOhP/Almar-Puit?node-id=44-644&t=BeBAlorwEJjSqZKi-1"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="external-link"
-                >
-                  https://bit.ly/4jHU2QZ
+                  DrinkUpp
                 </a>
 
                 <Typography variant="body1" sx={{ mt: 2, fontWeight: "bold" }}>
                   Technologies planned to be used:
                 </Typography>
                 <Typography variant="body3" color="text.secondary">
-                  AngularJS, SpringBoot, PostgreSQL, BitBucket
+                  Kotlin (Android), Node.js, TensorFlow Lite / ML Kit for camera
+                  sip detection, WorkManager & notifications, HealthKit / Google
+                  Fit integration, Jetpack Compose, Figma, local database
+                  (Room/SQLite), analytics (Google Analytics).
                 </Typography>
 
                 <Typography variant="body1" sx={{ mt: 2, fontWeight: "bold" }}>
                   My duties in the project:
                 </Typography>
                 <Typography variant="body3" color="text.secondary">
-                  Planning, client communication, system design and database
-                  schema modeling, front-end & back-end development, testing and
-                  deployment, project handover and training.
+                  Defining the vision and concept of the app Designing UX/UI,
+                  flows, and motivational features Deciding on features,
+                  packages, and pricing strategy Planning prototype development
+                  and testing Gathering user feedback and iterating the product
+                  Coordinating with developers on technical implementation
                 </Typography>
               </Box>
 
@@ -131,4 +120,4 @@ const AlmarpuitProject: React.FC = () => {
   );
 };
 
-export default AlmarpuitProject;
+export default DrinkuppProject;

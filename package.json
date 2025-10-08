@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "prebuild": "node src/scripts/generate-sitemap.js",
     "build": "vite build",
     "preview": "vite preview",
-    "sitemap": "node src/scripts/generate-sitemap.js"
+    "sitemap": "node src/scripts/generate-sitemap.js",
+    "prebuild": "npm run sitemap"
   },
   "dependencies": {
     "@carefully-coded/react-text-gradient": "^1.0.6",

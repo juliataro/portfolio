@@ -6,7 +6,7 @@ import Bodydetox from "./pages/projects/bodydetox";
 import Spavarska from "./pages/projects/spavarska";
 import Tobroxwood from "./pages/projects/tobroxwood";
 import Nagemisteraapia from "./pages/projects/nagemisteraapia";
-import Almarpuit from "./pages/projects/almarpuit";
+import Almarpuit from "./pages/projects/drinkupp";
 import Peipsikaup from "./pages/projects/peipsikaup";
 import Process from "./pages/process"; // ✅ add this
 import CVProject from "./pages/cv";
@@ -39,7 +39,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
                 <Route path="/projects/websites" element={<Websites />} />
                 <Route path="/projects/print" element={<Print />} />
                 <Route
-                  path="/projects/websites/almarpuit"
+                  path="/projects/websites/drinkupp"
                   element={<Almarpuit />}
                 />
                 <Route

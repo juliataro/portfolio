@@ -9,7 +9,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 
 // Reuse your images:
-import img1 from "../assets/images/almarpuit/almar-design.jpg";
+import img1 from "../assets/images/drinkupp/drinkupp.png";
 import img2 from "../assets/images/bodydetox/bodydetox2.jpg";
 import img3 from "../assets/images/peipsikaup/peipsikaup.jpg";
 import img4 from "../assets/images/spavarska/spa_varska.jpg";
@@ -20,9 +20,9 @@ import Footer from "../components/footer/Footer";
 
 const webProjects = [
   {
-    name: "Almar Puit OÜ",
-    description: "Custom infosystem for timber business workflows",
-    link: "/projects/websites/almarpuit",
+    name: "DrinkUpp",
+    description: "Smart hydration assistant for daily water intake",
+    link: "/projects/websites/drinkupp",
     image: img1,
   },
   {
@@ -120,6 +120,9 @@ export default function WebsitesPage() {
                       height: "auto",
                       aspectRatio: "16 / 10",
                       objectFit: "cover",
+                      pt: "20px",
+                      pl: "20px",
+                      pr: "20px",
                     }}
                   />
                   <CardContent sx={{ p: { xs: 2, sm: 2.5 } }}>
