@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
-import img1 from "./assets/images/estopuit.png";
+import img1 from "./assets/images/drinkupp/drinkupp1.png";
 
 import img7 from "./assets/images/tvplay/tv_play_car_1.jpg";
 
