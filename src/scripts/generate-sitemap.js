@@ -9,7 +9,7 @@ const routes = [
   '/process',
   '/projects/websites',
   '/projects/print',
-  '/projects/websites/almarpuit',
+  '/projects/websites/drinkupp',
   '/projects/websites/tobroxwood',
   '/projects/websites/spavarska',
   '/projects/websites/bodydetox',

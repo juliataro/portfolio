@@ -8,7 +8,7 @@ import {
   CardContent,
 } from "@mui/material";
 
-import imgMain from "../../assets/images/drinkupp/drinkupp.jpg";
+import imgMain from "../../assets/images/drinkupp/drinkupp.webp";
 import Footer from "../../components/footer/Footer";
 import Navigation from "../../components/navigation/Navigation";
 

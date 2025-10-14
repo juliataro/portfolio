@@ -9,7 +9,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 
 // Reuse your images:
-import img1 from "../assets/images/drinkupp/drinkupp.jpg";
+import img1 from "../assets/images/drinkupp/drinkupp.webp";
 import img2 from "../assets/images/bodydetox/bodydetox2.jpg";
 import img3 from "../assets/images/peipsikaup/peipsikaup.jpg";
 import img4 from "../assets/images/spavarska/spa_varska.jpg";
