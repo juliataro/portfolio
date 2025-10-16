@@ -47,12 +47,13 @@ const DrinkuppProject: React.FC = () => {
               </Typography>
 
               <Typography variant="body3" color="text.secondary" sx={{ mb: 2 }}>
-                Designed for personal use with clean, intuitive interface and
-                mobile optimization. In addition to standard tracking functions,
-                the application includes motivational features — it allows a
-                user to log each drink, track progress throughout the day, and
-                receive encouraging feedback. The application is currently in
-                the prototype development stage.
+                Landing page is made with for promoting mobile application.
+                DrinkUpp is an AI-powered mobile app that helps you build a
+                healthy hydration habit naturally and mindfully. Using your
+                phone’s camera, it detects when you take a sip of water and logs
+                it automatically. Your personal AI assistant shares simple,
+                educational insights that help you understand your body’s needs
+                and stay balanced every day.
               </Typography>
 
               {/* ➕ Additional Info Section */}
