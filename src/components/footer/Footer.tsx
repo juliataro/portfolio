@@ -9,11 +9,11 @@ const Footer: React.FC = () => {
         <Typography variant="body1" className="footer-text">
           Contact:
           <Link
-            href="mailto:julia.taro@email.com"
+            href="mailto:info@adverbum.ee"
             className="footer-link"
             underline="hover"
           >
-            julia.taro@adverbum.ee
+            info@adverbum.ee
           </Link>
         </Typography>
 
