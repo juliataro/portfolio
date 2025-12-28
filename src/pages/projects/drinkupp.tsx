@@ -11,6 +11,9 @@ import {
   ListItemButton,
   ListItemText,
 } from "@mui/material";
+import List from "@mui/joy/List";
+import ListItem from "@mui/joy/ListItem";
+
 import "./styles/index.css";
 
 import imgMain from "../../assets/images/drinkupp/drinkupp.webp";
@@ -95,6 +98,16 @@ const DrinkuppProject: React.FC = () => {
                     <ListItemButton>
                       <ListItemText primary="Trash" />
                     </ListItemButton>
+                  </ListItem>
+                </List>
+                <List
+                  sx={{
+                    listStyleType: "disc",
+                    listStylePosition: "inside",
+                  }}
+                >
+                  <ListItem sx={{ display: "list-item" }}>
+                    Incoming Bullet
                   </ListItem>
                 </List>
               </Box>
