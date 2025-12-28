@@ -11,6 +11,7 @@ import {
   ListItemButton,
   ListItemText,
 } from "@mui/material";
+import "./styles/index.css";
 
 import imgMain from "../../assets/images/drinkupp/drinkupp.webp";
 import Footer from "../../components/footer/Footer";
