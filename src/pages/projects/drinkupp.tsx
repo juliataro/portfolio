@@ -6,6 +6,10 @@ import {
   Card,
   CardMedia,
   CardContent,
+  List,
+  ListItem,
+  ListItemButton,
+  ListItemText,
 } from "@mui/material";
 
 import imgMain from "../../assets/images/drinkupp/drinkupp.webp";
@@ -47,13 +51,11 @@ const DrinkuppProject: React.FC = () => {
               </Typography>
 
               <Typography variant="body3" color="text.secondary" sx={{ mb: 2 }}>
-                Landing page is made with for promoting mobile application.
-                DrinkUpp is an AI-powered mobile app that helps you build a
-                healthy hydration habit naturally and mindfully. Using your
-                phone’s camera, it detects when you take a sip of water and logs
-                it automatically. Your personal AI assistant shares simple,
-                educational insights that help you understand your body’s needs
-                and stay balanced every day.
+                DrinkUpp is a concept-stage mobile app I’m currently developing.
+                The project focuses on exploring how AI and mobile interaction
+                can support healthy hydration habits. At this stage, I’m working
+                on defining the product vision, core features, and UX flows, and
+                preparing for user interviews and validation.
               </Typography>
 
               {/* ➕ Additional Info Section */}
@@ -87,13 +89,13 @@ const DrinkuppProject: React.FC = () => {
                 <Typography variant="body1" sx={{ mt: 2, fontWeight: "bold" }}>
                   My duties in the project:
                 </Typography>
-                <Typography variant="body3" color="text.secondary">
-                  Defining the vision and concept of the app Designing UX/UI,
-                  flows, and motivational features Deciding on features,
-                  packages, and pricing strategy Planning prototype development
-                  and testing Gathering user feedback and iterating the product
-                  Coordinating with developers on technical implementation
-                </Typography>
+                <List>
+                  <ListItem disablePadding>
+                    <ListItemButton>
+                      <ListItemText primary="Trash" />
+                    </ListItemButton>
+                  </ListItem>
+                </List>
               </Box>
 
               {/* ➕ Extra Images 

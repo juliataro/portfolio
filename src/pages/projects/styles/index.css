@@ -5,6 +5,10 @@
   margin-bottom: 4rem;
 }
 
+ListItemText {
+  list-style-type: disc;
+}
+
 @media (max-width: 765px) {
   .bcg-color {
     margin-bottom: 2.8rem !important;
