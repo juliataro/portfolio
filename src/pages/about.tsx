@@ -22,7 +22,7 @@ import "./styles/index.css";
 const educationList: ListItemData[] = [
   {
     id: 1,
-    primary: "Tartu University, Estonia, 2025-2029",
+    primary: "Tartu University, Estonia, 2025-",
     secondary: "Business and Project Management",
     icon: <SchoolIcon />,
   },
@@ -156,7 +156,7 @@ const AboutProject: React.FC = () => {
                 objectFit: "cover",
                 mt: { xs: "0rem", md: 0 }, // margin-top 1rem on mobile only
                 mb: { xs: "2rem", md: 0 },
-                mr: { xs: 0, md: 2 }, // right margin only on desktop
+                mr: { xs: 0, md: 2 }, // right margin only on desktop 2025-2029
                 display: { xs: "flex", md: "flex" }, // make sure it's visible everywhere
               }}
               image={imgMain}
