@@ -61,18 +61,9 @@ const TobroxwoodProject: React.FC = () => {
                 compatibility with WooCommerce, allowing future e-commerce
                 expansion.
               </Typography>
-              <Typography variant="body3" color="text.secondary" sx={{ mb: 2 }}>
-                The project was completed with an emphasis on practical
-                functionality, performance, and readiness for future growth.
-              </Typography>
 
               <Box>
-                <Typography
-                  variant="body1"
-                  sx={{ fontWeight: "bold", marginTop: "1em" }}
-                >
-                  Website:
-                </Typography>
+                <Typography variant="body1">Website:</Typography>
                 <a
                   href="https://tobroxwood.ee"
                   target="_blank"
@@ -101,10 +92,7 @@ const TobroxwoodProject: React.FC = () => {
                   Yes. The basic SEO optimization is in the progress.
                 </Typography>
 
-                <Typography
-                  variant="body1"
-                  sx={{ fontWeight: "bold", marginTop: "1em" }}
-                >
+                <Typography variant="body1">
                   Key implementation steps included:
                 </Typography>
                 <List
