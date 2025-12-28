@@ -57,13 +57,18 @@ const TobroxwoodProject: React.FC = () => {
                 This project was delivered as a turnkey website under a tight
                 timeline, without a prior design phase. The focus was on fast
                 implementation, stability, and future scalability. The website
-                was built using the Astra theme, chosen for its flexibility and
-                compatibility with WooCommerce, allowing future e-commerce
-                expansion.
+                was built using the WordPress Astra theme, chosen for its
+                flexibility and compatibility with WooCommerce, allowing future
+                e-commerce expansion.
               </Typography>
 
               <Box>
-                <Typography variant="body1">Website:</Typography>
+                <Typography
+                  variant="body1"
+                  sx={{ fontWeight: "bold", marginTop: "1em" }}
+                >
+                  Website:
+                </Typography>
                 <a
                   href="https://tobroxwood.ee"
                   target="_blank"
@@ -92,7 +97,10 @@ const TobroxwoodProject: React.FC = () => {
                   Yes. The basic SEO optimization is in the progress.
                 </Typography>
 
-                <Typography variant="body1">
+                <Typography
+                  variant="body1"
+                  sx={{ fontWeight: "bold", marginTop: "1em" }}
+                >
                   Key implementation steps included:
                 </Typography>
                 <List
