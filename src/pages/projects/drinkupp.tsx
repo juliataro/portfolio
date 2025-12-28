@@ -91,13 +91,6 @@ const DrinkuppProject: React.FC = () => {
                 <Typography variant="body1" sx={{ mt: 2, fontWeight: "bold" }}>
                   My duties in the project:
                 </Typography>
-                <List>
-                  <ListItem disablePadding>
-                    <ListItemButton>
-                      <ListItemText primary="Trash" />
-                    </ListItemButton>
-                  </ListItem>
-                </List>
                 <List
                   sx={{
                     listStyleType: "disc",
@@ -105,7 +98,26 @@ const DrinkuppProject: React.FC = () => {
                   }}
                 >
                   <ListItem sx={{ display: "list-item" }}>
-                    Incoming Bullet
+                    Defined the product concept, user flows, and core feature
+                    set
+                  </ListItem>
+                  <ListItem sx={{ display: "list-item" }}>
+                    Structured early UX and interaction logic
+                  </ListItem>
+                  <ListItem sx={{ display: "list-item" }}>
+                    Conducted initial market and concept research
+                  </ListItem>
+                  <ListItem sx={{ display: "list-item" }}>
+                    Participated in Garage48 Power Empowering Women, where the
+                    project received 3rd place
+                  </ListItem>
+                  <ListItem sx={{ display: "list-item" }}>
+                    Received expert feedback on product direction, landing page
+                    structure, and user-first positioning
+                  </ListItem>
+                  <ListItem sx={{ display: "list-item" }}>
+                    Refined the concept based on customer-first thinking and
+                    early validation principles{" "}
                   </ListItem>
                 </List>
               </Box>

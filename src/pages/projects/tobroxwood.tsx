@@ -6,6 +6,8 @@ import {
   Card,
   CardMedia,
   CardContent,
+  ListItem,
+  List,
 } from "@mui/material";
 
 import imgMain from "../../assets/images/tobrox/tobrox-wood.png";
@@ -51,6 +53,18 @@ const TobroxwoodProject: React.FC = () => {
                 pallets, and wooden structures for transporting goods of various
                 sizes and shapes.
               </Typography>
+              <Typography variant="body3" color="text.secondary" sx={{ mb: 2 }}>
+                This project was delivered as a turnkey website under a tight
+                timeline, without a prior design phase. The focus was on fast
+                implementation, stability, and future scalability. The website
+                was built using the Astra theme, chosen for its flexibility and
+                compatibility with WooCommerce, allowing future e-commerce
+                expansion.
+              </Typography>
+              <Typography variant="body3" color="text.secondary" sx={{ mb: 2 }}>
+                The project was completed with an emphasis on practical
+                functionality, performance, and readiness for future growth.
+              </Typography>
 
               <Box>
                 <Typography
@@ -84,26 +98,38 @@ const TobroxwoodProject: React.FC = () => {
                   Support:
                 </Typography>
                 <Typography variant="body3" color="text.secondary">
-                  Yes. SEO optimization is in progress.
+                  Yes. The basic SEO optimization is in the progress.
                 </Typography>
 
                 <Typography
                   variant="body1"
                   sx={{ fontWeight: "bold", marginTop: "1em" }}
                 >
-                  My duties in the project:
+                  Key implementation steps included:
                 </Typography>
-                <Typography variant="body3" color="text.secondary">
-                  Project management and development. This is turnkey website
-                  that was made without sketch, as it was ordered to be done
-                  ASAP. <br />
-                  Astra theme had been chosen for need to use WooComerce in the
-                  future.
-                  <br />
-                  Installed plugins to secure the login page, for backups, had
-                  been installed UptimeRobot for real-time monitoring
-                  performance and CAPTCHA and other useful plugins.
-                </Typography>
+                <List
+                  sx={{
+                    listStyleType: "disc",
+                    listStylePosition: "inside",
+                  }}
+                >
+                  <ListItem sx={{ display: "list-item" }}>
+                    Website structure setup and content integration
+                  </ListItem>
+                  <ListItem sx={{ display: "list-item" }}>
+                    Configuration of essential security plugins (login
+                    protection, CAPTCHA)
+                  </ListItem>
+                  <ListItem sx={{ display: "list-item" }}>
+                    Backup system setup
+                  </ListItem>
+                  <ListItem sx={{ display: "list-item" }}>
+                    Performance and uptime monitoring via UptimeRobot
+                  </ListItem>
+                  <ListItem sx={{ display: "list-item" }}>
+                    Basic optimization for reliability and maintainability
+                  </ListItem>
+                </List>
               </Box>
             </CardContent>
           </Card>
