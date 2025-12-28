@@ -46,7 +46,7 @@ const skillsList: ListItemData[] = [
     id: 1,
     primary: "Web Development:",
     secondary:
-      "React/Redux, Angular (studying), TS, ExpressJS, Java, PHP, REST API, GitHub, SQL, NoSQL. CMS — WordPress, Framer, Wix.",
+      "React/Redux, Angular (studying), TS, ExpressJS, Java, REST API, GitHub, SQL, NoSQL. CMS — WordPress, Framer, Wix.",
     icon: <CodeIcon />,
   },
   {
