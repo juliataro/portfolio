@@ -83,7 +83,7 @@ export default function WebsitesPage() {
           </Typography>
 
           <Box>
-            <Typography variant="body1" sx={{ mt: 2, fontWeight: "bold" }}>
+            <Typography variant="body2" sx={{ mt: 2, fontWeight: "bold" }}>
               Current project
             </Typography>
 
@@ -96,12 +96,12 @@ export default function WebsitesPage() {
             <Typography sx={{ mt: 1 }}>
               My role covers the full product discovery phase — from
               understanding business needs and defining the problem to shaping
-              product logic, UX flows and technical structure.
+              product logic, UX flows and technical implementation.
             </Typography>
 
             <Typography sx={{ mt: 1 }}>
               Completed so far:
-              <ul>
+              <ul sx={{ ml: 5 }}>
                 <li>Problem analysis & business goals</li>
                 <li>Product requirements (PRD)</li>
                 <li>User flows and prototype design</li>
@@ -109,11 +109,10 @@ export default function WebsitesPage() {
             </Typography>
 
             <Typography>
-              Documentation:
               <Link href="https://docs.google.com/document/d/1QM6ferpC5oIzlljenawGArDW3qCIoZP29-MYWaukCCQ/edit?usp=sharing">
-                PRD
+                Documentation
               </Link>
-              {" | "}
+              {" and "}
               <Link href="https://bit.ly/498WzzC">Prototype</Link>
             </Typography>
 
