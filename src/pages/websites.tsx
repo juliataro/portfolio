@@ -110,13 +110,17 @@ export default function WebsitesPage() {
 
             <Typography>
               <Link
+                sx={{ textDecoration: "none" }}
+                underline="none"
                 variant="body1"
                 href="https://docs.google.com/document/d/1QM6ferpC5oIzlljenawGArDW3qCIoZP29-MYWaukCCQ/edit?usp=sharing"
               >
                 Documentation
               </Link>
               {" and "}
-              <Link href="https://bit.ly/498WzzC">Prototype Design</Link>
+              <Link underline="none" href="https://bit.ly/498WzzC">
+                Prototype Design
+              </Link>
             </Typography>
 
             <Typography sx={{ mt: 1, fontStyle: "italic" }}>
