@@ -7,6 +7,7 @@ import Card from "@mui/material/Card";
 import CardActionArea from "@mui/material/CardActionArea";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
+import Link from "@mui/material/Link";
 
 // Reuse your images:
 import img1 from "../assets/images/drinkupp/drinkupp.webp";
@@ -81,6 +82,46 @@ export default function WebsitesPage() {
             Websites
           </Typography>
 
+          <Box>
+            <Typography variant="body1" sx={{ mt: 2, fontWeight: "bold" }}>
+              Current project
+            </Typography>
+
+            <Typography>
+              Administrative system for a wood-processing company (Almar Puit
+              OÜ). A real business case focused on improving internal processes
+              and data flow.
+            </Typography>
+
+            <Typography sx={{ mt: 1 }}>
+              My role covers the full product discovery phase — from
+              understanding business needs and defining the problem to shaping
+              product logic, UX flows and technical structure.
+            </Typography>
+
+            <Typography sx={{ mt: 1 }}>
+              Completed so far:
+              <ul>
+                <li>Problem analysis & business goals</li>
+                <li>Product requirements (PRD)</li>
+                <li>User flows and prototype design</li>
+              </ul>
+            </Typography>
+
+            <Typography>
+              Documentation:
+              <Link href="https://docs.google.com/document/d/1QM6ferpC5oIzlljenawGArDW3qCIoZP29-MYWaukCCQ/edit?usp=sharing">
+                PRD
+              </Link>
+              {" | "}
+              <Link href="https://bit.ly/498WzzC">Prototype</Link>
+            </Typography>
+
+            <Typography sx={{ mt: 1, fontStyle: "italic" }}>
+              Development is planned as the next stage.
+            </Typography>
+          </Box>
+
           {/* same 2-per-row grid, but inside your homepage wrappers */}
           <Box
             sx={{
@@ -92,6 +133,7 @@ export default function WebsitesPage() {
               gap: { xs: 5, sm: 3, md: 4 },
             }}
           >
+            {/* Cards of Projects */}
             {webProjects.map((p) => (
               <Card
                 key={p.name}
