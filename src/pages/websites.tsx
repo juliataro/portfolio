@@ -101,6 +101,11 @@ export default function WebsitesPage() {
 
             <Typography sx={{ mt: 1 }}>
               Completed so far:
+              <ul className="list">
+                <li>Fever</li>
+                <li>Tiredness</li>
+                <li>Dry Cough</li>
+              </ul>
               <ul sx={{ mt: 5, ml: 5 }}>
                 <li>Problem analysis & business goals</li>
                 <li>Product requirements (PRD)</li>
