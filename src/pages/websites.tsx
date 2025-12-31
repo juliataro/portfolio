@@ -101,7 +101,7 @@ export default function WebsitesPage() {
 
             <Typography sx={{ mt: 1 }}>
               Completed so far:
-              <ul sx={{ mt: 1, ml: 5 }}>
+              <ul sx={{ mt: 5, ml: 5 }}>
                 <li>Problem analysis & business goals</li>
                 <li>Product requirements (PRD)</li>
                 <li>Prototype design</li>
@@ -113,7 +113,7 @@ export default function WebsitesPage() {
                 Documentation
               </Link>
               {" and "}
-              <Link href="https://bit.ly/498WzzC">Prototype</Link>
+              <Link href="https://bit.ly/498WzzC">Prototype Design</Link>
             </Typography>
 
             <Typography sx={{ mt: 1, fontStyle: "italic" }}>
