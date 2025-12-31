@@ -109,7 +109,10 @@ export default function WebsitesPage() {
             </Typography>
 
             <Typography>
-              <Link href="https://docs.google.com/document/d/1QM6ferpC5oIzlljenawGArDW3qCIoZP29-MYWaukCCQ/edit?usp=sharing">
+              <Link
+                variant="body1"
+                href="https://docs.google.com/document/d/1QM6ferpC5oIzlljenawGArDW3qCIoZP29-MYWaukCCQ/edit?usp=sharing"
+              >
                 Documentation
               </Link>
               {" and "}
