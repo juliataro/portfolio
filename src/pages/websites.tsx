@@ -84,10 +84,10 @@ export default function WebsitesPage() {
 
           <Box sx={{ mb: 10 }}>
             <Typography variant="body2" sx={{ mt: 2, fontWeight: "bold" }}>
-              Current project
+              Current project:
             </Typography>
 
-            <Typography>
+            <Typography sx={{ mt: 1 }}>
               Administrative system for a wood-processing company (Almar Puit
               OÜ). A real business case focused on improving internal processes
               and data flow.
@@ -99,14 +99,9 @@ export default function WebsitesPage() {
               product logic, UX flows and technical implementation.
             </Typography>
 
-            <Typography sx={{ mt: 1 }}>
-              Completed so far:
-              <ul className="list">
-                <li>Fever</li>
-                <li>Tiredness</li>
-                <li>Dry Cough</li>
-              </ul>
-              <ul sx={{ mt: 5, ml: 5 }}>
+            <Typography sx={{ mt: 1 }}>Completed so far:</Typography>
+            <Typography sx={{ ml: 5 }}>
+              <ul>
                 <li>Problem analysis & business goals</li>
                 <li>Product requirements (PRD)</li>
                 <li>Prototype design</li>
