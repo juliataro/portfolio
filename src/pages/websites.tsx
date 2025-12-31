@@ -105,11 +105,10 @@ export default function WebsitesPage() {
               </ul>
             </Typography>
             ""
-            <Typography>
+            <Typography variant="body1">
               <Link
-                sx={{ textDecoration: "none", color: "red" }}
+                sx={{ textDecoration: "none" }}
                 underline="none"
-                variant="body1"
                 href="https://docs.google.com/document/d/1QM6ferpC5oIzlljenawGArDW3qCIoZP29-MYWaukCCQ/edit?usp=sharing"
               >
                 Documentation
