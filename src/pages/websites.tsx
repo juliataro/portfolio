@@ -105,16 +105,21 @@ export default function WebsitesPage() {
               </ul>
             </Typography>
             ""
-            <Typography variant="body1">
+            <Typography>
               <Link
-                sx={{ textDecoration: "none" }}
+                sx={{ textDecoration: "none", color: "#170c45" }}
                 underline="none"
+                variant="body1"
                 href="https://docs.google.com/document/d/1QM6ferpC5oIzlljenawGArDW3qCIoZP29-MYWaukCCQ/edit?usp=sharing"
               >
                 Documentation
               </Link>
               {" and "}
-              <Link underline="none" href="https://bit.ly/498WzzC">
+              <Link
+                underline="none"
+                sx={{ textDecoration: "none", color: "#170c45" }}
+                href="https://bit.ly/498WzzC"
+              >
                 Prototype Design
               </Link>
             </Typography>
