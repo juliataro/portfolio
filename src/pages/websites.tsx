@@ -100,7 +100,7 @@ export default function WebsitesPage() {
             </Typography>
 
             <Typography sx={{ mt: 1 }}>Completed so far:</Typography>
-            <Typography sx={{ ml: 5 }}>
+            <Typography sx={{ ml: 2 }}>
               <ul>
                 <li>Problem analysis & business goals</li>
                 <li>Product requirements (PRD)</li>
