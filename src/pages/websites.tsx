@@ -86,19 +86,16 @@ export default function WebsitesPage() {
             <Typography variant="body2" sx={{ mt: 2, fontWeight: "bold" }}>
               Current project:
             </Typography>
-
             <Typography sx={{ mt: 1 }}>
               Administrative system for a wood-processing company (Almar Puit
               OÜ). A real business case focused on improving internal processes
               and data flow.
             </Typography>
-
             <Typography sx={{ mt: 1 }}>
               My role covers the full product discovery phase — from
               understanding business needs and defining the problem to shaping
               product logic, UX flows and technical implementation.
             </Typography>
-
             <Typography sx={{ mt: 1 }}>Completed so far:</Typography>
             <Typography sx={{ ml: 2 }}>
               <ul>
@@ -107,10 +104,10 @@ export default function WebsitesPage() {
                 <li>Prototype design</li>
               </ul>
             </Typography>
-
+            ""
             <Typography>
               <Link
-                sx={{ textDecoration: "none" }}
+                sx={{ textDecoration: "none", color: "red" }}
                 underline="none"
                 variant="body1"
                 href="https://docs.google.com/document/d/1QM6ferpC5oIzlljenawGArDW3qCIoZP29-MYWaukCCQ/edit?usp=sharing"
@@ -122,7 +119,6 @@ export default function WebsitesPage() {
                 Prototype Design
               </Link>
             </Typography>
-
             <Typography sx={{ mt: 1, fontStyle: "italic" }}>
               Development is planned as the next stage.
             </Typography>
