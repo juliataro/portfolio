@@ -101,7 +101,7 @@ export default function WebsitesPage() {
 
             <Typography sx={{ mt: 1 }}>
               Completed so far:
-              <ul sx={{ ml: 5 }}>
+              <ul sx={{ mt: 1, ml: 5 }}>
                 <li>Problem analysis & business goals</li>
                 <li>Product requirements (PRD)</li>
                 <li>Prototype design</li>
