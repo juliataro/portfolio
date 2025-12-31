@@ -82,7 +82,7 @@ export default function WebsitesPage() {
             Websites
           </Typography>
 
-          <Box>
+          <Box sx={{ mb: 10 }}>
             <Typography variant="body2" sx={{ mt: 2, fontWeight: "bold" }}>
               Current project
             </Typography>
@@ -104,7 +104,7 @@ export default function WebsitesPage() {
               <ul sx={{ ml: 5 }}>
                 <li>Problem analysis & business goals</li>
                 <li>Product requirements (PRD)</li>
-                <li>User flows and prototype design</li>
+                <li>Prototype design</li>
               </ul>
             </Typography>
 
