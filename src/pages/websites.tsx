@@ -104,15 +104,14 @@ export default function WebsitesPage() {
                 <li>Prototype design</li>
               </ul>
             </Typography>
-            ""
+
             <Typography>
               <Link
                 sx={{ textDecoration: "none", color: "#170c45" }}
                 underline="none"
-                variant="body1"
                 href="https://docs.google.com/document/d/1QM6ferpC5oIzlljenawGArDW3qCIoZP29-MYWaukCCQ/edit?usp=sharing"
               >
-                Documentation
+                Documentation and Prototype
               </Link>
               {" and "}
               <Link
