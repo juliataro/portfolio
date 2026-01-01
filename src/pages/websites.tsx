@@ -92,9 +92,9 @@ export default function WebsitesPage() {
               and data flow.
             </Typography>
             <Typography sx={{ mt: 1 }}>
-              My role covers the full product discovery phase — from
-              understanding business needs and defining the problem to shaping
-              product logic till technical implementation.
+              My role covers the full product lifecycle — from business and user
+              research, problem definition, and product logic design to
+              technical implementation.
             </Typography>
             <Typography sx={{ mt: 1 }}>Completed so far:</Typography>
             <Typography sx={{ ml: 2 }}>
