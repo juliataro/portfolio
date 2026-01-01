@@ -94,7 +94,7 @@ export default function WebsitesPage() {
             <Typography sx={{ mt: 1 }}>
               My role covers the full product discovery phase — from
               understanding business needs and defining the problem to shaping
-              product logic, UX flows and technical implementation.
+              product logic till technical implementation.
             </Typography>
             <Typography sx={{ mt: 1 }}>Completed so far:</Typography>
             <Typography sx={{ ml: 2 }}>
@@ -111,7 +111,7 @@ export default function WebsitesPage() {
                 underline="none"
                 href="https://docs.google.com/document/d/1QM6ferpC5oIzlljenawGArDW3qCIoZP29-MYWaukCCQ/edit?usp=sharing"
               >
-                Documentation and Prototype
+                Documentation
               </Link>
               {" and "}
               <Link
