@@ -161,7 +161,12 @@ export default function WebsitesPage() {
                   },
                 }}
               >
-                <CardActionArea component={RouterLink} to={p.link}>
+                <CardActionArea
+                  component={RouterLink}
+                  to={p.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <CardMedia
                     component="img"
                     image={p.image}
