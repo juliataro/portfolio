@@ -1,5 +1,6 @@
 import * as React from "react";
-import { Link } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
+import Link from "@mui/material/Link";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
@@ -7,7 +8,6 @@ import Card from "@mui/material/Card";
 import CardActionArea from "@mui/material/CardActionArea";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Link from "@mui/material/Link";
 
 // Reuse your images:
 import img1 from "../assets/images/drinkupp/drinkupp.webp";
@@ -110,20 +110,24 @@ export default function WebsitesPage() {
                 sx={{ textDecoration: "none", color: "#170c45" }}
                 underline="none"
                 href="https://docs.google.com/document/d/1QM6ferpC5oIzlljenawGArDW3qCIoZP29-MYWaukCCQ/edit?usp=sharing"
-                      https://docs.google.com/document/d/1QM6ferpC5oIzlljenawGArDW3qCIoZP29-MYWaukCCQ/edit?usp=sharing
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Documentation 
+                Documentation
               </Link>
               {" and "}
               <Link
                 underline="none"
                 sx={{ textDecoration: "none", color: "#170c45" }}
                 href="https://bit.ly/498WzzC"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Prototype Design
               </Link>
-                  {" are available upon request. "}
+              {" are available upon request."}
             </Typography>
+
             <Typography sx={{ mt: 1, fontStyle: "italic" }}>
               Development is planned as the next stage.
             </Typography>
@@ -157,7 +161,7 @@ export default function WebsitesPage() {
                   },
                 }}
               >
-                <CardActionArea component={Link} to={p.link}>
+                <CardActionArea component={RouterLink} to={p.link}>
                   <CardMedia
                     component="img"
                     image={p.image}
