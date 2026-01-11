@@ -55,7 +55,7 @@ const webProjects = [
   {
     name: "Nagemisteraapia.ee",
     description: "Eye therapy website with mobile-friendly UX design",
-    link: "/projects/websites/nagemisteraapia",
+    link: "/projects/nagemisteraapia",
     image: img5,
   },
 ];
