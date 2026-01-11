@@ -23,7 +23,7 @@ const educationList: ListItemData[] = [
   {
     id: 1,
     primary: "Tartu University, Estonia, 2025-",
-    secondary: "Business and Project Management",
+    secondary: "Applied Entrepreneurship and Project Management",
     icon: <SchoolIcon />,
   },
   {
