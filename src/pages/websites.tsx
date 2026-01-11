@@ -110,8 +110,9 @@ export default function WebsitesPage() {
                 sx={{ textDecoration: "none", color: "#170c45" }}
                 underline="none"
                 href="https://docs.google.com/document/d/1QM6ferpC5oIzlljenawGArDW3qCIoZP29-MYWaukCCQ/edit?usp=sharing"
+                      https://docs.google.com/document/d/1QM6ferpC5oIzlljenawGArDW3qCIoZP29-MYWaukCCQ/edit?usp=sharing
               >
-                Documentation
+                Documentation 
               </Link>
               {" and "}
               <Link
@@ -121,6 +122,7 @@ export default function WebsitesPage() {
               >
                 Prototype Design
               </Link>
+                  {" are available upon request. "}
             </Typography>
             <Typography sx={{ mt: 1, fontStyle: "italic" }}>
               Development is planned as the next stage.
