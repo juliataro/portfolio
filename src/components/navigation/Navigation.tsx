@@ -76,7 +76,7 @@ export default function Navigation() {
                   height: 30,
                   pt: 0.5,
                   mr: 1,
-                  mt: -1,
+                  mt: 0,
                   objectFit: "contain",
                 }}
               />
@@ -84,7 +84,7 @@ export default function Navigation() {
           </Box>
 
           {/* Title */}
-          <Box sx={{ flexGrow: 1, mt: -2 }}>
+          <Box sx={{ flexGrow: 1, mt: 1 }}>
             <Typography variant="h6">Web Development</Typography>
           </Box>
 
