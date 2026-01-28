@@ -51,7 +51,9 @@ export default function Navigation() {
       }}
     >
       <Toolbar>
-        <Box sx={{ display: "flex", p: 1, borderRadius: 1, width: "100%" }}>
+        <Box
+          sx={{ display: "flex", p: 1, borderRadius: 1, maxWidth: "1200px" }}
+        >
           {/* Logo / Home */}
           <Box>
             <IconButton
