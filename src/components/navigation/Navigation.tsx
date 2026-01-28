@@ -84,8 +84,8 @@ export default function Navigation() {
           </Box>
 
           {/* Title */}
-          <Box sx={{ flexGrow: 1, mt: 1 }}>
-            <Typography variant="h6">Web Development</Typography>
+          <Box sx={{ flexGrow: 1, mt: 0 }}>
+            <Typography variant="h6">Turnkey Websites</Typography>
           </Box>
 
           {/* Desktop menu */}
