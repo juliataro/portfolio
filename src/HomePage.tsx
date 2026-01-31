@@ -45,9 +45,10 @@ export default function HomePage() {
               Turnkey Websites for Businesses & Creators
             </h1>
 
-            <p className="sub-header">
-              Web Design | Web Development | Copywriting | SEO Basics | Support
-            </p>
+            <h2 className="sub-header">
+              I build fast, modern websites that help you get more clients —
+              from design and development to copy and basic SEO
+            </h2>
 
             <div className="cta-box">
               {/* -------------- Green Button -------------- */}
@@ -95,6 +96,10 @@ export default function HomePage() {
                   Let's Start
                 </a>
               </Button>
+              <h4 className="sub-header">
+                Need a new website or a redesign? Book a free website audit and
+                I’ll tell you what to fix or build.
+              </h4>
             </div>
           </div>
         </section>

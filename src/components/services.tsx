@@ -16,7 +16,7 @@ const cards = [
     id: 2,
     title: "Web Development",
     description:
-      "WordPress, Wix, Framer or Custom-Coded websites tailored to your needs",
+      "WordPress, WooCommerce, Wix, Framer or Custom-Coded websites tailored to your needs",
   },
   {
     id: 4,
