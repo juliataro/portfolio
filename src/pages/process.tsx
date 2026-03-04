@@ -25,44 +25,44 @@ const Card = styled(Paper)(({ theme }) => ({
 /* 10 steps */
 const steps = [
   {
-    title: "1 STEP - Understand your business",
-    text: "On this step I will learn your idea, audience and what makes you unique. You will have to fill out the form. ",
+    title: "1. Discovery – Understanding Your Business",
+    text: "At this stage, we take the time to understand your business, vision, target audience, and unique value proposition. You will complete a structured questionnaire that helps clarify your goals and expectations. ",
   },
   {
-    title: "2 STEP - Set goals",
-    text: "We define primary outcomes what is best for you - sales, leads, brand or information.",
+    title: "2. Goal Definition",
+    text: "Together, we define the primary objectives of your website — whether it’s generating sales, capturing leads, building brand awareness, or providing information. Clear goals ensure every design and technical decision supports measurable results.",
   },
   {
-    title: "3 STEP - Map the structure",
-    text: "I will sketch the sitemap and flows so visitors always know where to go next. Site map helps search engines crawl and index your website more efficiently, ensure important pages aren't missed, provide valuable metadata about your content.",
+    title: "3. Structure & Sitemap Planning",
+    text: "We develop a clear sitemap and user flow to ensure visitors intuitively navigate your website. A well-structured sitemap also helps search engines crawl and index your pages efficiently, ensuring important content is prioritized and properly organized.",
   },
   {
-    title: "4 STEP - Template text",
-    text: "It you don't have time to write text - I will help with it. Texts and keyword-aware copy to start the site strong.",
+    title: "4. Strategic Copywriting",
+    text: "If you don’t have time to write the content, we can assist with professionally crafted, keyword-aware copy. Well-structured text strengthens your message and supports a strong SEO foundation from the start.",
   },
   {
-    title: "5 STEP - Design with clarity",
-    text: "I'll make Design and layouts and visuals that support your message.",
+    title: "5. Design with Purpose",
+    text: "We create clean, modern layouts and visuals that communicate your message clearly and reinforce your brand identity. Every design element is intentional and aligned with your goals.",
   },
   {
-    title: "6 STEP - Build the website",
-    text: "Coding, CMS setup and responsive implementation.",
+    title: "6. Website Development",
+    text: "This stage includes coding, CMS setup, and fully responsive implementation to ensure your website performs seamlessly across all devices.",
   },
   {
-    title: "7 STEP - Speed & SEO",
-    text: "Basic SEO performance tuning, proper tags and lightweight images will increase your online visibility, drive organic traffic to your website.",
+    title: "7. Performance & SEO Optimization",
+    text: "We implement foundational SEO practices, performance optimization, proper metadata, and lightweight image formatting to improve visibility and support organic traffic growth.",
   },
   {
-    title: "8 STEP - Testing",
-    text: "I'll check speed, mobile responsibility on phone, tablet and desktop views",
+    title: "8. Testing & Quality Assurance",
+    text: "Before launch, we thoroughly test speed, responsiveness, and usability across mobile, tablet, and desktop devices to ensure consistent performance.",
   },
   {
-    title: "9 STEP - Launch",
-    text: "Setup of domain, hosting and final checks before going live.",
+    title: "9. Launch",
+    text: "We configure domain and hosting settings and perform final technical checks before your website goes live.",
   },
   {
-    title: "10 STEP - Keep improving",
-    text: "If necessary, we will install Google Analytics and Google Search Console, or simple plugins for SMC to see result. With Google Analytics you can track details like page views, session duration.",
+    title: "10. Ongoing Improvement",
+    text: "If needed, we set up Google Analytics and Google Search Console to monitor performance and user behavior. This allows you to track metrics such as page views, session duration, and traffic sources — helping guide future improvements.",
   },
 ];
 
