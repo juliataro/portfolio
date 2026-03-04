@@ -240,7 +240,7 @@ export default function Navigation() {
                     maxWidth: "100vw",
                     height: `calc(100vh - ${MENU_TOP}px)`,
                     borderRadius: 0,
-                    marginTop: "3rem",
+                    marginTop: "2rem",
                     boxShadow: "none",
                     backgroundColor: "#ffffff",
                     // Safe area insets for iOS notch
