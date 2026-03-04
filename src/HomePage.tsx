@@ -97,7 +97,7 @@ export default function HomePage() {
                 </a>
               </Button>
             </div>
-            <div>
+            <div className="sub-header">
               <p>
                 Need a new website or a redesign? Book a free website audit.
               </p>
