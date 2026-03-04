@@ -96,10 +96,10 @@ export default function HomePage() {
                   Let's Start
                 </a>
               </Button>
-              <h4 className="sub-header">
+              <h3 className="sub-header">
                 Need a new website or a redesign? Book a free website audit and
                 I’ll tell you what to fix or build.
-              </h4>
+              </h3>
             </div>
           </div>
         </section>
