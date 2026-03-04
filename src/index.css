@@ -5,10 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* #f2f4fa */
 
- { #f2f4fa
-  /* ---------- Smooth Scrolling ---------*/
-}
+/* ---------- Smooth Scrolling ---------*/
+
 html {
   scroll-behavior: auto !important;
 }
@@ -35,7 +35,6 @@ h5 {
   font-weight: 600;
   font-size: 1.3rem;
 }
-
 
 footer {
   padding-left: 20px;
@@ -103,11 +102,11 @@ footer {
   margin-bottom: 2rem;
 }
 .css-yc44wt {
-    display: block;
-    height: 90px;
-    width: 100px;
-    object-fit: contain;
-    margin-top: -10px;
+  display: block;
+  height: 90px;
+  width: 100px;
+  object-fit: contain;
+  margin-top: -10px;
 }
 
 .css-v842b-MuiCardMedia-root {
@@ -115,27 +114,27 @@ footer {
 }
 
 .css-1528fwn {
-    display: block;
-    height: 60px;
-    width: 100px;
-    object-fit: contain;
-    margin-top: -2px;
+  display: block;
+  height: 60px;
+  width: 100px;
+  object-fit: contain;
+  margin-top: -2px;
 }
 
 .css-4d9i3g {
-    display: block;
-    height: 70px;
-    width: 100px;
-    object-fit: contain;
-    margin-top: -3px;
+  display: block;
+  height: 70px;
+  width: 100px;
+  object-fit: contain;
+  margin-top: -3px;
 }
 
 .css-1528fwn {
-    display: block;
-    height: 50px;
-    width: 100px;
-    object-fit: contain;
-    margin-top: -2px;
+  display: block;
+  height: 50px;
+  width: 100px;
+  object-fit: contain;
+  margin-top: -2px;
 }
 
 .cta-green {
@@ -195,12 +194,10 @@ footer {
   padding-top: 2rem;
 }
 
-
-.homepage-projects-section{
-  background-color: #e7e7f1; 
-padding-top: 4rem;
-   padding-bottom: 10rem;
-  
+.homepage-projects-section {
+  background-color: #e7e7f1;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
 }
 .intro-section-serv {
   background-color: #f2f4fa;
@@ -238,14 +235,10 @@ li,
   font-weight: 500 !important;
 }
 
-
-
-.lets-talk{
+.lets-talk {
   margin-top: 3rem !important;
-  color:"#170c45",
-  
+  color: "#170c45";
 }
-
 
 .project-image {
   width: 100%;
@@ -258,7 +251,9 @@ li,
   background: #fff;
   padding: 1.5rem;
   border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   text-decoration: none;
   color: inherit;
 }
@@ -274,9 +269,8 @@ li,
   font-weight: 600;
 }
 
-.process-section{
+.process-section {
   margin-top: "-2rem";
-
 }
 
 .project-card p {
@@ -324,7 +318,9 @@ section p {
   margin: 0 auto;
 }
 .section-inner {
-  font-family: Cal Sans, sans-serif;
+  font-family:
+    Cal Sans,
+    sans-serif;
   border-radius: 12px;
 }
 
@@ -336,19 +332,15 @@ section p {
 }
 
 .web-dev {
-  color:#170c45
+  color: #170c45;
 }
 
 .web-projects-section,
 .design-print-section {
   background-color: #e7e7f1;
   padding-top: 2rem;
-   padding-bottom: 5rem;
-  
-  
+  padding-bottom: 5rem;
 }
-
-
 
 /* Web Projects 
 
@@ -363,16 +355,10 @@ section p {
 .web-projects-section h2,
 .design-print-section h2 {
   color: #170c45;
- 
 }
 
 /* ----------- Tablets View ----------- */
-@media 
-  (max-device-width: 218px)
-  and (max-device-height: 281px) { 
-
-    
-
+@media (max-device-width: 218px) and (max-device-height: 281px) {
 }
 
 /* ----------- Mobile View ----------------*/
@@ -390,12 +376,11 @@ section p {
 }
 
 @media (max-width: 765px) {
-
   /* About */
 
   .css-ntpxqx {
     padding: 0 !important;
-}
+  }
   .main-header {
     background-image: linear-gradient(#1f38a6, #170c45);
     color: transparent;
@@ -409,18 +394,17 @@ section p {
     grid-template-columns: repeat(1fr);
   }
 
-  
   .hero-section-clients {
     background-color: #e7e7f1;
     padding-top: 1rem;
-}
+  }
 
-    .hero-section {
-        background-color: #e7e7f1;
-        padding-top: 1rem;
-        /* padding-bottom: 2rem; */
-        align-items: center;
-    }
+  .hero-section {
+    background-color: #e7e7f1;
+    padding-top: 1rem;
+    /* padding-bottom: 2rem; */
+    align-items: center;
+  }
 
   .clients {
     background-color: #e7e7f1;
@@ -428,34 +412,26 @@ section p {
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 2rem;
-}
+  }
 
-  
-    .hero-section {
-        background-color: #e7e7f1;
-        padding-top: 1rem;
-        /* padding-bottom: 2rem; */
-        align-items: center;
-    }
+  .hero-section {
+    background-color: #e7e7f1;
+    padding-top: 1rem;
+    /* padding-bottom: 2rem; */
+    align-items: center;
+  }
 
-
- 
-  
-
-  
   section {
     padding-bottom: 1rem;
     font-family: "Cal Sans", sans-serif;
     align-items: center;
-}
-
-
+  }
 
   .intro-section-serv {
-  background-color: #f2f4fa;
-  padding-top: 4rem;
-  padding-bottom: -1rem !important;
-}
+    background-color: #f2f4fa;
+    padding-top: 4rem;
+    padding-bottom: -1rem !important;
+  }
 
   /* header {
     margin-top: 1rem;
@@ -478,10 +454,12 @@ section p {
     width: 100px;
     object-fit: contain;
     margin-top: -2px;
-}
+  }
   .section-inner {
     margin-top: 0;
-    font-family: Cal Sans, sans-serif;
+    font-family:
+      Cal Sans,
+      sans-serif;
     border-radius: 12px;
     margin-left: 20px;
     margin-right: 20px;
@@ -502,15 +480,14 @@ section p {
     text-align: center;
   }
 
-  
-    .css-i63vzw-MuiTypography-root {
+  .css-i63vzw-MuiTypography-root {
     margin: 0;
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.6;
     padding-top: 3px;
-}
+  }
 
   .cta-green {
     border-radius: 8px;
@@ -530,13 +507,13 @@ section p {
   .css-vxq3sc {
     display: block;
     margin-bottom: 28px !important;
-}
+  }
 
-.css-ynw6pm-MuiPaper-root-MuiCard-root {
+  .css-ynw6pm-MuiPaper-root-MuiCard-root {
     background-color: #fff;
     color: #170c45;
     margin-bottom: 12px !important;
-}
+  }
   .cta-green:hover {
     background: #c1bfe7;
     border: 2px solid #c1bfe7;
@@ -563,7 +540,6 @@ section p {
     margin-top: 2rem;
     padding-bottom: 0.8rem;
   }
-  
 
   footer {
     padding-left: 20px;
@@ -598,10 +574,10 @@ section p {
     margin-right: 2rem;
   }
 
-  .process-section{
-  margin-top: "-2rem";
-margin-bottom: 2.5rem;
-}
+  .process-section {
+    margin-top: "-2rem";
+    margin-bottom: 2.5rem;
+  }
 
   .footer-row {
     margin-top: 2rem;
@@ -611,11 +587,10 @@ margin-bottom: 2.5rem;
     background-color: #e7e7f1;
     padding-top: 4rem;
     padding-bottom: 5rem;
-}
+  }
 
-.web-projects-section h2 {
+  .web-projects-section h2 {
     color: #170c45;
-    font-size: 2rem ;
-}
-
+    font-size: 2rem;
+  }
 }

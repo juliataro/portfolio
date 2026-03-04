@@ -45,10 +45,10 @@ export default function HomePage() {
               Turnkey Websites for Businesses & Creators
             </h1>
 
-            <h2 className="sub-header">
+            <h4 className="sub-header">
               I build fast, modern websites that help you get more clients —
               from design and development to copy and basic SEO
-            </h2>
+            </h4>
 
             <div className="cta-box">
               {/* -------------- Green Button -------------- */}
