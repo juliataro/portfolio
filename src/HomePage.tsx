@@ -96,10 +96,11 @@ export default function HomePage() {
                   Let's Start
                 </a>
               </Button>
-              <p>
-                Need a new website or a redesign? Book a free website audit and
-                I’ll tell you what to fix or build.
-              </p>
+              <div>
+                <p>
+                  Need a new website or a redesign? Book a free website audit.
+                </p>
+              </div>
             </div>
           </div>
         </section>
