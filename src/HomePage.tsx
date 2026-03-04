@@ -46,8 +46,8 @@ export default function HomePage() {
             </h1>
 
             <h3 className="sub-header">
-              I build fast, modern websites that help you get more clients —
-              from design and development to copy and basic SEO
+              I help startups and service businesses turn their website into a
+              lead-generating machine using modern technologies.
             </h3>
 
             <div className="cta-box">
@@ -96,11 +96,11 @@ export default function HomePage() {
                   Let's Start
                 </a>
               </Button>
-              <div>
-                <p>
-                  Need a new website or a redesign? Book a free website audit.
-                </p>
-              </div>
+            </div>
+            <div>
+              <p>
+                Need a new website or a redesign? Book a free website audit.
+              </p>
             </div>
           </div>
         </section>
