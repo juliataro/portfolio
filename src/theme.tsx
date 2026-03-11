@@ -49,7 +49,7 @@ export const theme = createTheme({
       textAlign: "center",
       fontFamily: '"Inter", sans-serif',
       fontSize: "2.3rem",
-      fontWeight: "300",
+      fontWeight: "400",
     },
     h4: {
       textAlign: "left",
