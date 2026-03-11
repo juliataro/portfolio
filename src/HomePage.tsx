@@ -49,7 +49,7 @@ export default function HomePage() {
               I help startups and service businesses turn their website into a
               lead-generating machine using modern technologies.
             </h3>
-            <h4 className="sub-header">
+            <h4>
               I help startups and service businesses turn their website into a
               lead-generating machine using modern technologies.
             </h4>
