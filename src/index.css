@@ -326,9 +326,15 @@ section p {
 
 .sub-header {
   margin-bottom: 3rem;
+
+  textalign: "center";
+  fontfamily: '"Inter", sans-serif';
+  fontsize: "2.3rem";
+  fontweight: "400";
 }
 .sub-header2 {
-  margin-top: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .web-dev {
