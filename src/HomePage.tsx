@@ -49,10 +49,6 @@ export default function HomePage() {
               I help startups and service businesses turn their website into a
               lead-generating machine using modern technologies.
             </h3>
-            <h4>
-              I help startups and service businesses turn their website into a
-              lead-generating machine using modern technologies.
-            </h4>
 
             <div className="cta-box">
               {/* -------------- Green Button -------------- */}
@@ -101,7 +97,7 @@ export default function HomePage() {
                 </a>
               </Button>
             </div>
-            <div className="sub-header">
+            <div className="sub-header2">
               <p>
                 Need a new website or a redesign? Book a free website audit.
               </p>
