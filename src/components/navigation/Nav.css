@@ -93,3 +93,9 @@
     max-width: 80vw;
   }
 }
+
+@media (max-width: 1024px) {
+  .mobile-nav-menu {
+    max-width: 80vw;
+  }
+}
