@@ -82,10 +82,10 @@ const TobroxwoodProject: React.FC = () => {
                   variant="body1"
                   sx={{ fontWeight: "bold", marginTop: "1em" }}
                 >
-                  Technologies used:
+                  Technologies:
                 </Typography>
                 <Typography variant="body3" color="text.secondary">
-                  WordPress WooCommerce, Elementor PB, Custom CSS, UptimeRobot
+                  WordPress WooCommerce, Elementor, Custom CSS, UptimeRobot
                 </Typography>
                 <Typography
                   variant="body1"
