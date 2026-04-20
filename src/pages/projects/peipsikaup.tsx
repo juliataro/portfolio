@@ -8,8 +8,8 @@ import {
   CardContent,
 } from "@mui/material";
 
-import imgMain from "../../assets/images/peipsikaup/peipsikaup.jpg";
-import imgDetail1 from "../../assets/images/peipsi_kaubad_peipsimaa.webp"; // Replace with real file
+import imgMain from "../../assets/images/peipsi_kaubad_peipsimaa.webp";
+import imgDetail1 from "../../assets/images/peipsikaup1"; // Replace with real file
 //import imgDetail2 from "../assets/images/almarpuit/detail2.jpg"; // Replace with real file
 import "./styles/index.css";
 import Footer from "../../components/footer/Footer";
