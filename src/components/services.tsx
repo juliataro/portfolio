@@ -25,14 +25,14 @@ const cards = [
   },
   {
     id: 3,
-    title: "SEO Basics",
-    description: "Website can be a profitable tool with smart optimisation",
+    title: "Technical SEO",
+    description: "Website's Google Search Engine and AI Search Optimization",
   },
 
   {
     id: 5,
-    title: "BI Analisys",
-    description: "Humans depend on plants and animals for survival.",
+    title: "Data Analisys",
+    description: "Raw data transformation into actionable insights",
   },
   {
     id: 6,

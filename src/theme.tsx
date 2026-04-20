@@ -47,7 +47,7 @@ export const theme = createTheme({
     },
     h3: {
       textAlign: "center",
-      fontFamily: '"Inter", sans-serif',
+      fontFamily: '"Cal Sans", sans-serif',
       fontSize: "2.3rem",
       fontWeight: "400",
     },
