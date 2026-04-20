@@ -71,11 +71,11 @@ const PeipsikaupProject: React.FC = () => {
                 </a>
 
                 <Typography variant="body1" sx={{ mt: 2, fontWeight: "bold" }}>
-                  Technologies planned to be used:
+                  Technologies:
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                   WordPress/WooCommerce Template Astra theme, Elementor PB,
-                  UptimeRobot
+                  UptimeRobot, Technical SEO
                 </Typography>
 
                 <Typography variant="body1" sx={{ mt: 2, fontWeight: "bold" }}>
