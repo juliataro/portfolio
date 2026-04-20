@@ -12,7 +12,7 @@ import CardMedia from "@mui/material/CardMedia";
 // Reuse your images:
 import img1 from "../assets/images/drinkupp/drinkupp.webp";
 import img2 from "../assets/images/bodydetox/bodydetox2.jpg";
-import img3 from "../assets/images/peipsikaup/peipsikaup.jpg";
+import img3 from "../assets/images/peipsikaup/peipsi_kaubad_peipsimaa.webp";
 import img4 from "../assets/images/spavarska/spa_varska.jpg";
 import img5 from "../assets/images/nagemisteraapia/nagemistr1.jpg";
 import img6 from "../assets/images/tobrox/tobrox-wood.png";
