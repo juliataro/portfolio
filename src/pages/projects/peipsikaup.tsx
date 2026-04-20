@@ -8,7 +8,7 @@ import {
   CardContent,
 } from "@mui/material";
 
-import imgMain from "../../assets/images/peipsi_kaubad_peipsimaa.webp";
+import imgMain from "../../assets/images/peipsikaup/peipsi_kaubad_peipsimaa.webp";
 import imgDetail1 from "../../assets/images/peipsikaup1.jpg"; // Replace with real file
 //import imgDetail2 from "../assets/images/almarpuit/detail2.jpg"; // Replace with real file
 import "./styles/index.css";
