@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 
 import imgMain from "../../assets/images/peipsikaup/peipsi_kaubad_peipsimaa.webp";
-import imgDetail1 from "../../assets/images/peipsikaup1.jpg"; // Replace with real file
+import imgDetail1 from "../../assets/images/peipsikaup/peipsikaup1.jpg"; // Replace with real file
 //import imgDetail2 from "../assets/images/almarpuit/detail2.jpg"; // Replace with real file
 import "./styles/index.css";
 import Footer from "../../components/footer/Footer";
