@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: #b7c8ec;
+  background-color: #f2ecee;
   color: #170c45;
   font-family: "Inter", sans-serif;
   line-height: 1.6;
@@ -566,11 +566,6 @@ section p {
   }
   .skills-column {
     padding-left: 10px;
-  }
-
-  .sub-header,
-  .sub-header2 {
-    font-size: 16px !important;
   }
 
   .sub-header {

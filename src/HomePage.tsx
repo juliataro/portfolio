@@ -46,8 +46,7 @@ export default function HomePage() {
             </h1>
 
             <h3 className="sub-header">
-              I help startups and service businesses turn their website into a
-              lead-generating machine using modern technologies.
+              Modern websites designed to generate leads and grow your business.
             </h3>
 
             <div className="cta-box">

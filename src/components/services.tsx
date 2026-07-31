@@ -19,25 +19,26 @@ const cards = [
       "WordPress, WooCommerce, Wix, Framer or Custom-Coded websites tailored to your needs",
   },
   {
-    id: 4,
-    title: "Copywriting",
-    description: "No time to write your texts? We’ll handle it for you.",
-  },
-  {
     id: 3,
     title: "Technical SEO",
     description: "Website's Google Search Engine and AI Search Optimization",
   },
+  {
+    id: 4,
+    title: "Copywriting",
+    description: "No time to write your texts? We’ll handle it for you.",
+  },
 
   {
     id: 5,
-    title: "Data Analisys",
+    title: "Data Analysis",
     description: "Raw data transformation into actionable insights",
   },
   {
     id: 6,
-    title: "Print",
-    description: "Humans depend on plants and animals for survival.",
+    title: "Print & Branding",
+    description:
+      "Logos, branding, print materials, packaging & exhibition design",
   },
 ];
 
