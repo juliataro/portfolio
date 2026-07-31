@@ -42,6 +42,7 @@ export const theme = createTheme({
       fontFamily: '"Inter", sans-serif',
     },
     h2: {
+      fontSize: "2rem",
       color: "#0a0f2c",
       fontFamily: '"Zalando", sans-expanded',
     },

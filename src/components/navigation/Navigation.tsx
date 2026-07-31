@@ -42,7 +42,7 @@ export default function Navigation() {
       position="static"
       elevation={0}
       sx={{
-        backgroundColor: "#ffffff",
+        backgroundColor: "transparent",
         color: "#170c45",
         fontFamily: "Inter, sans-serif",
         // No margin/radius on mobile; keep your look on desktop
@@ -85,7 +85,7 @@ export default function Navigation() {
 
           {/* Title */}
           <Box sx={{ flexGrow: 1, mt: 0.7 }}>
-            <Typography variant="h6">Turnkey Websites</Typography>
+            <Typography variant="h5">Adverbum Agency</Typography>
           </Box>
 
           {/* Desktop menu */}
@@ -119,7 +119,12 @@ export default function Navigation() {
                 anchorEl={anchorEl}
                 open={openProjects}
                 onClose={handleProjectsClose}
-                slotProps={{ list: { onMouseLeave: handleProjectsClose } }}
+                disableScrollLock
+                slotProps={{
+                  list: {
+                    onMouseLeave: handleProjectsClose,
+                  },
+                }}
                 anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
                 transformOrigin={{ vertical: "top", horizontal: "left" }}
               >

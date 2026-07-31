@@ -5,6 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
 /* #f2f4fa */
 
 /* ---------- Smooth Scrolling ---------*/
@@ -14,7 +19,7 @@ html {
 }
 
 body {
-  background-color: #f2ecee;
+  background-color: #fefbff;
   color: #170c45;
   font-family: "Inter", sans-serif;
   line-height: 1.6;
@@ -97,9 +102,11 @@ footer {
   justify-content: center !important;
 }
 .clients {
-  background-color: #e7e7f1;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  background-color: #f2f1f4;
+  margin-top: 8rem;
+  margin-bottom: -2rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
 }
 .css-yc44wt {
   display: block;
@@ -184,24 +191,67 @@ footer {
   gap: 3rem;
 }
 
-.hero-section {
-  background-color: #e7e7f1;
+.hero-section-gradient {
+  z-index: -100;
+}
+
+.hero-gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+
+  background: conic-gradient(
+    from 0deg,
+    #f2ecee,
+    #e0deee,
+    #f1d3f9,
+    #f2ecee,
+    #cdcae4,
+    #c7c1d6
+  );
+  filter: blur(100px);
   padding-top: 5rem;
+  animation: spinGradient 25s linear infinite;
+}
+
+@keyframes spinGradient {
+  0% {
+    transform: rotate(0deg) scale(2);
+  }
+  100% {
+    transform: rotate(1turn) scale(2);
+  }
+}
+
+.hero-section {
+  position: relative;
+  padding-top: 1rem;
+  z-index: 100;
 }
 
 .hero-section-clients {
-  background-color: #e7e7f1;
-  padding-top: 2rem;
+  position: relative;
+  background-color: #7d69a4;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 6rem;
+  z-index: 100;
 }
 
 .homepage-projects-section {
-  background-color: #e7e7f1;
+  position: relative;
+  background-color: #f8f0f6;
   padding-top: 4rem;
   padding-bottom: 10rem;
+  z-index: 100;
 }
 .intro-section-serv {
-  background-color: #f2f4fa;
-  padding-top: 6rem;
+  position: relative;
+  background-color: #fdfbff;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+  z-index: 100;
 }
 
 /*
@@ -229,8 +279,7 @@ li,
 }
 
 .main-header {
-  background-image: linear-gradient(#1f38a6, #170c45);
-  color: transparent;
+  color: #170c45;
   background-clip: text;
   font-weight: 500 !important;
 }
@@ -279,9 +328,10 @@ li,
 }
 
 .section-inner h1 {
-  font-size: 5rem;
-  font-weight: 300;
-  margin-bottom: 2rem;
+  font-size: 4.5rem;
+  font-weight: 100;
+  margin-bottom: 0rem;
+  padding-top: 0rem;
   letter-spacing: -0.5px;
   line-height: 5rem;
 }
@@ -326,10 +376,11 @@ section p {
 
 .sub-header {
   margin-bottom: 4rem;
+  margin-top: 2rem;
   text-align: "center";
-  font-family: "Cal Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: "2.3rem";
-  font-weight: "300";
+  font-weight: "100";
 }
 
 .sub-header2 {
@@ -386,11 +437,17 @@ section p {
   .css-ntpxqx {
     padding: 0 !important;
   }
+
+  .cta-box {
+    display: flex;
+    justify-content: center !important;
+    margin-top: 5rem;
+  }
+
   .main-header {
-    background-image: linear-gradient(#1f38a6, #170c45);
-    color: transparent;
+    color: #170c45;
     background-clip: text;
-    margin-top: 3rem !important;
+    margin-top: 0rem !important;
     font-weight: 400 !important;
     font-size: 3.2rem !important;
     line-height: 95% !important;
@@ -399,28 +456,23 @@ section p {
     grid-template-columns: repeat(1fr);
   }
 
-  .hero-section-clients {
-    background-color: #e7e7f1;
-    padding-top: 1rem;
-  }
-
   .hero-section {
-    background-color: #e7e7f1;
     padding-top: 1rem;
     /* padding-bottom: 2rem; */
     align-items: center;
   }
 
   .clients {
-    background-color: #e7e7f1;
-    margin-top: 1rem;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 2rem;
+    background-color: #f2f1f4;
+    margin-top: 5rem;
+    margin-bottom: -2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
   }
 
   .hero-section {
-    background-color: #e7e7f1;
     padding-top: 1rem;
     /* padding-bottom: 2rem; */
     align-items: center;
@@ -434,8 +486,10 @@ section p {
 
   .intro-section-serv {
     background-color: #f2f4fa;
-    padding-top: 4rem;
-    padding-bottom: -1rem !important;
+    padding-top: 3rem;
+    padding-bottom: -3rem !important;
+    margin-top: 0rem !important;
+    margin-bottom: 2, 1rem !important;
   }
 
   /* header {
@@ -447,9 +501,8 @@ section p {
   } */
 
   .hero-section {
-    background-color: #e7e7f1;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-top: 0rem;
+
     align-items: center;
   }
 
@@ -479,7 +532,7 @@ section p {
     font-size: 4rem;
     line-height: 4rem;
     font-weight: 200;
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     letter-spacing: 0.5px;
     text-align: center;
@@ -586,7 +639,8 @@ section p {
   .homepage-projects-section {
     background-color: #e7e7f1;
     padding-top: 4rem;
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
+    margin-bottom: -10rem;
   }
 
   .web-projects-section h2 {

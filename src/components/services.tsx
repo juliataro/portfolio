@@ -15,13 +15,12 @@ const cards = [
   {
     id: 2,
     title: "Web Development",
-    description:
-      "WordPress, WooCommerce, Wix, Framer or Custom-Coded websites tailored to your needs",
+    description: "WordPress, Framer, Wix & Custom Development",
   },
   {
     id: 3,
     title: "Technical SEO",
-    description: "Website's Google Search Engine and AI Search Optimization",
+    description: "Google Search Engine and AI Search Optimization",
   },
   {
     id: 4,
@@ -38,7 +37,7 @@ const cards = [
     id: 6,
     title: "Print & Branding",
     description:
-      "Logos, branding, print materials, packaging & exhibition design",
+      "Logos, Branding, Print materials, Packaging & Exhibition Design",
   },
 ];
 
@@ -57,8 +56,8 @@ function Services() {
         <Card
           sx={{
             boxShadow: 0,
-            borderRadius: "8px",
-            backgroundColor: "#b7c8ec",
+            borderRadius: "16px",
+            backgroundColor: "#dcdaf5",
           }}
         >
           <CardActionArea

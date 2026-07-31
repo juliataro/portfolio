@@ -1,3 +1,8 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 .navbar {
   border-radius: 12px !important;
   width: 60%;
@@ -29,6 +34,9 @@
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 3rem;
+  position: relative;
+
+  z-index: 100;
 }
 
 .nav-container {
@@ -80,6 +88,9 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 1.4rem;
+    max-width: 100%;
+    z-index: 100;
+    position: relative;
   }
 
   .almarpuit {

@@ -38,15 +38,18 @@ export default function HomePage() {
         <header className="main-nav">
           <Navigation />
         </header>
+        <section className="hero-section-gradient row-full">
+          <div className="hero-gradient"></div>
+        </section>
 
         <section className="hero-section row-full">
           <div className="section-inner">
-            <h1 className="main-header">
-              Turnkey Websites for Businesses & Creators
-            </h1>
+            <h1 className="main-header">We Create</h1>
+            <h1 className="main-header">Visual Solutions</h1>
+            <h1 className="main-header"></h1>
 
             <h3 className="sub-header">
-              Modern websites designed to generate leads and grow your business.
+              Web Design. Web Development. Data Analysis.{" "}
             </h3>
 
             <div className="cta-box">
@@ -102,15 +105,14 @@ export default function HomePage() {
               </p>
             </div>
           </div>
-        </section>
-        {/**  Clients  */}
-        <section className="hero-section-clients row-full">
           <div className="clients">
             <Box>
               <Clients />
             </Box>
           </div>
         </section>
+
+        {/**  Clients  */}
         {/**  ----------Services ----------------   */}
         <section className="intro-section-serv row-full">
           <div className="section-inner">
