@@ -85,7 +85,7 @@ export default function Navigation() {
 
           {/* Title */}
           <Box sx={{ flexGrow: 1, mt: 0.7 }}>
-            <Typography variant="h5">Adverbum Agency</Typography>
+            <Typography variant="h5"></Typography>
           </Box>
 
           {/* Desktop menu */}
